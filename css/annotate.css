@@ -57,7 +57,7 @@ body {
     top: 50%;
     -webkit-transzform: translateY(-50%);
     transform: translateY(-50%);
-    cursor: url('/images/cursol.png'), auto;
+    cursor: url('./images/cursol.png'), auto;
 }
 
 @-webkit-keyframes spin {
