@@ -1,0 +1,18 @@
+@import url("./font-awesome/css/fontawesome-all.css");
+@font-face {
+  font-family: 'Didot_Italic';
+  src: url("../fonts/Didot_Italic.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Caveat';
+  src: url("../fonts/Caveat-Regular.ttf") format("truetype"); }
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  color: #2b2a28; }
+
+img {
+  max-width: 100%; }
+
+/*# sourceMappingURL=base.css.map */

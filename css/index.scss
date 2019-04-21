@@ -1,0 +1,38 @@
+.opening_bar {
+  height: 1px;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.loading_up {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000;
+}
+
+.loading_down {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #000;
+}
+
+#js-target {
+  display: none;
+}
