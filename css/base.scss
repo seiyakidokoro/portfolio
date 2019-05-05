@@ -17,8 +17,18 @@ html {
 body {
   font-size: 1.6rem;
   color: #2b2a28;
+  background-color: #F2F2F2;
+  //background-color: #d4d4d4;
+  //background-image: url('../images/bg_ivory_pattern1.png');
 }
 
 img {
   max-width: 100%;
+}
+
+.particles-js-canvas-el {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
 }

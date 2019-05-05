@@ -1,6 +1,5 @@
 .Works__head {
-  text-align: center;
-  font-size: 2rem;
+  font-size: 6.4rem;
   font-family: "Futura, sans-serif";
   font-family: 'Nanum Myeongjo', serif;
   font-family: 'Quattrocento', serif;
@@ -8,13 +7,11 @@
   font-family: 'Gentium Basic', serif;
   font-family: 'Fredericka the Great', cursive;
   font-family: 'IM Fell English SC', serif;
-  font-family: 'Cutive', serif;
   font-family: 'Londrina Outline', cursive;
   font-family: 'Frijole', cursive;
   font-family: 'Junge', serif;
   font-family: 'Cormorant SC', serif;
-  font-family: 'Italianno', cursive;
-  font-family: 'Didot_Italic'; }
+  font-family: 'Cutive', serif; }
 .Works .hoge {
   transform-style: preserve-3d;
   perspective: 1000px; }
@@ -22,8 +19,9 @@
   transition: transform 0.5s; }
 .Works__img {
   z-index: 1;
-  width: 373px;
-  height: 233px;
+  width: 580px;
+  height: 0;
+  padding-top: 62.5%;
   background-image: url("../images/annotating-bar.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,6 +57,6 @@
 .Works__content {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: flex-start; }
 
 /*# sourceMappingURL=works.css.map */

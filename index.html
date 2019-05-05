@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="ja">
+<!--<html lang="ja" style="overflow: hidden">-->
+<html lang="ja" style="overflow: visible">
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
@@ -8,18 +9,18 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/contents.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/works.css">
     <link rel="stylesheet" href="./css/blog.css">
-    <link rel="stylesheet" href="./css/profile.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Cutive|Fredericka+the+Great|Frijole|Gentium+Basic|IBM+Plex+Serif|IM+Fell+English|IM+Fell+English+SC|Italianno|Junge|Londrina+Outline|Nanum+Myeongjo|Quattrocento"
           rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/t.min.js"></script>
     <script src="js/jquery.inview.js"></script>
 </head>
-<body>
+<body id="particles-js">
 
 <!--Header-->
 <header class="Header l-mb20">
@@ -46,77 +47,90 @@
     </div>
 </header>
 
-<!--Works-->
-<section id="works" class="Works l-width">
-    <h2 class="Works__head">
-        Works
-        <br>
-        制作実績
-    </h2>
-    <article class="Works__content">
-        <div>
-            <p class="Works__lead">イライラ棒風CSSミニゲーム</p>
-            <br>
-            <p>CSSのみで作成したミニゲームサイト</p>
-        </div>
-        <div class="hoge">
-            <div class="Works__img-wrapper">
-                <div class="Works__img"></div>
+<!--Contents-->
+<div class="Contents">
+    <!--Works-->
+    <section id="works" class="Works l-width">
+        <h2 class="Contents__head fadein left">
+            Works
+            <!--<br>-->
+            <!--制作実績-->
+        </h2>
+        <article class="Works__content">
+            <div>
+                <p class="Works__lead">イライラ棒風CSSミニゲーム</p>
+                <br>
+                <p>CSSのみで作成したミニゲームサイト</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div>
+                    作成経緯：<br>
+                    海外サイトで見つけたCSSゲームに感化され、自身のコーディング力向上も踏まえて作成。<br><br>
+                    こだわり： <br>
+                    japascriptは一切使わずにcssのみで実装しています。 <br><br>
+                    工夫点：<br>
+                    当たり判定には隣接セレクタを使うなど工夫をして、javascriptの代用。
+                </div>
             </div>
-        </div>
-    </article>
+            <div class="hoge">
+                <div class="Works__img-wrapper">
+                    <div class="Works__img"></div>
+                </div>
+            </div>
+        </article>
+    </section>
 
-</section>
+    <!--Profile-->
+    <section class="Profile l-width">
+        <h2 class="Profile__title">Profile</h2>
+        城所聖也
+    </section>
 
-<!--Blog-->
-<section class="Blog l-width">
-    <h2 class="Blog__title">
-    </h2>
-    <article class="Blog__content">
-    </article>
-</section>
+    <!--Blog-->
+    <!--<section class="Blog l-width">-->
+        <!--<h2 class="Blog__title"> -->
+        <!--</h2>-->
+        <!--<article class="Blog__content">-->
+        <!--</article>-->
+    <!--</section>-->
 
-<!--Profile-->
-<section class="Profile l-width">
-    <h2 class="Profile__title">
-
-    </h2>
-</section>
-
-<div class="Slide">
-    <img class="Slide__img" src="./images/q-image-01.jpg" alt="">
+    <!--Footer-->
+    <footer class="Footer"></footer>
 </div>
-<!--Footer-->
-<footer class="Footer"></footer>
 
 <!--Opening-->
-<div class="opening_bar"></div>
-<div class="loading">
-    <div class="loading_up" style="height: 50%;"></div>
-    <div class="loading_down" style="height: 50%;"></div>
-</div>
+<!--<div class="opening_bar"></div>-->
+<!--<div class="loading">-->
+<!--<div class="loading_up" style="height: 50%;"></div>-->
+<!--<div class="loading_down" style="height: 50%;"></div>-->
+<!--</div>-->
 
 <script>
-    // Inview
-    $('.Slide').on('inview', function (event, isInView) {
-        if (isInView) {
-            $('.Slide').addClass('is-active');
-            // element is now visible in the viewport
+    $(function () {
+        $(window).scroll(function () {
+            $('.fadein').each(function () {
+                var targetElement = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll > targetElement - windowHeight + 150) {
+                    $(this).addClass('scrollin');
+                }
+            });
 
-        } else {
-            // element has gone out of viewport
-        }
+            $('.Works__content').each(function () {
+                var targetElement = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll > targetElement - windowHeight + 150) {
+                    $('.Works__img-wrapper').addClass('is-active');
+                    $('.Works__img-wrapper').css('transform', 'rotateX(30deg) rotateY(-20deg) rotateZ(5deg)');
+                }
+            });
+        });
     });
 
-    $('.Works__content').on('inview', function (event, isInView) {
-        if (isInView) {
-            // element is now visible in the viewport
-            $('.Works__img-wrapper').addClass('is-active');
-            $('.Works__img-wrapper').css('transform', 'rotateX(30deg) rotateY(-20deg) rotateZ(5deg)');
-        } else {
-            // element has gone out of viewport
-        }
-    });
     // Opening
     $('.opening_bar').animate({'width': 100 + '%'}, 3000, function () {
         $(this).css({'left': 'auto', 'right': '0'}).animate({'width': '0%'}, 500, function () {
@@ -150,11 +164,16 @@
                         $('.Header__arrow').animate({
                             'opacity': '1'
                         }, 1000);
+                        $('html').css('overflow', 'visible');
                     }
                 });
             });
+
         });
     });
 </script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<canvas class="particles-js-canvas-el" width="2880" height="780" style="width: 100%; height: 100%;"></canvas>
 </body>
 </html>
