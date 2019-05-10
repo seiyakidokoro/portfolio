@@ -193,16 +193,16 @@
         </h2>
         <div class="Contact__body l-width-m fadein">
             <form action="#">
-                <label>お名前 (必須)
+                <label>お名前<span class="Contact__required"> (必須)</span>
                     <input required type="text" name="name" value="">
                 </label>
-                <label>メールアドレス (必須)
+                <label>メールアドレス<span class="Contact__required"> (必須)</span>
                     <input required type="email" name="email" value="">
                 </label>
-                <label>お問い合わせ内容
+                <label>お問い合わせ内容<span class="Contact__required"> (必須)</span>
                     <textarea required name="message" cols="40" rows="10"></textarea>
                 </label>
-                <button type="submit" class="Contact__submit">送信</button>
+                <button type="submit" class="Contact__submit">お問い合わせ</button>
             </form>
         </div>
     </section>
@@ -231,8 +231,16 @@
     });
     // ローディング
     $('.Loading__img').animate({'opacity': 1}, 2000, function () {
-        $('.Loading').animate({'opacity': 0}, 2000, function () {
-        });
+        $('.Loading').animate({'opacity': 0,'z-index': -100,}, 1000);
+        setTimeout(function () {
+            $('.Header__line-top').addClass('is-active');
+            $('.Header__line-right').addClass('is-active');
+            $('.Header__line-bottom').addClass('is-active');
+            $('.Header__line-left').addClass('is-active');
+        }, 500);
+        setTimeout(function () {
+            $('.Header__title-logo').animate({'opacity': 1}, 2000);
+        }, 2200);
     });
 </script>
 </body>

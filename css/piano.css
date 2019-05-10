@@ -49,28 +49,29 @@ Header
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    opacity: 0;
+    opacity: 0; }
+  .Header__title-logo.is-active {
     animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards; }
   .Header__line {
     content: '';
     background-color: #7d92a2;
     position: absolute; }
-  .Header__line-top {
+  .Header__line-top.is-active {
     top: 0;
     height: 2px;
     width: 0;
     animation: line-h 1s linear 0s 1 forwards; }
-  .Header__line-bottom {
+  .Header__line-bottom.is-active {
     bottom: 0;
     width: 0;
     height: 2px;
     animation: line-h 1s linear 1s 1 forwards; }
-  .Header__line-left {
+  .Header__line-left.is-active {
     left: 0;
     height: 100%;
     width: 2px;
     animation: line-v 1s linear 0s 1 forwards; }
-  .Header__line-right {
+  .Header__line-right.is-active {
     right: 0;
     height: 0;
     width: 2px;
@@ -427,8 +428,11 @@ Contact
   background-color: #FFFFFF;
   filter: drop-shadow(-11px -2px 26px rgba(0, 0, 0, 0.14));
   padding: 3em; }
+.Contact__required {
+  color: red;
+  font-size: 1.3rem; }
 .Contact__submit {
-  width: 12rem;
+  width: 18rem;
   cursor: pointer;
   background-color: #ee534f;
   color: white;

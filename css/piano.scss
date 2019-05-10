@@ -56,6 +56,8 @@ Header
     transform: translate(-50%, -50%);
     color: #fff;
     opacity: 0;
+  }
+  &__title-logo.is-active {
     animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards;
   }
   &__line {
@@ -63,25 +65,25 @@ Header
     background-color: #7d92a2;
     position: absolute;
   }
-  &__line-top {
+  &__line-top.is-active {
     top: 0;
     height: 2px;
     width: 0;
     animation: line-h 1s linear 0s 1 forwards;
   }
-  &__line-bottom {
+  &__line-bottom.is-active {
     bottom: 0;
     width: 0;
     height: 2px;
     animation: line-h 1s linear 1s 1 forwards;
   }
-  &__line-left {
+  &__line-left.is-active {
     left: 0;
     height: 100%;
     width: 2px;
     animation: line-v 1s linear 0s 1 forwards;
   }
-  &__line-right {
+  &__line-right.is-active {
     right: 0;
     height: 0;
     width: 2px;
@@ -540,8 +542,12 @@ Contact
     filter: drop-shadow(-11px -2px 26px rgba(0, 0, 0, 0.14));
     padding: 3em;
   }
+  &__required {
+    color: red;
+    font-size: 1.3rem;
+  }
   &__submit {
-    width: 12rem;
+    width: 18rem;
     cursor: pointer;
     background-color: rgb(238, 83, 79);
     color: rgb(255, 255, 255);
@@ -554,3 +560,4 @@ Contact
     display: block;
   }
 }
+

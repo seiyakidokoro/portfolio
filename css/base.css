@@ -5,13 +5,17 @@
 @font-face {
   font-family: 'Caveat';
   src: url("../fonts/Caveat-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Pr6n-r';
+  src: url("../fonts/pr6n-r.otf") format("truetype"); }
 html {
   font-size: 62.5%; }
 
 body {
   font-size: 1.6rem;
   color: #2b2a28;
-  background-color: #F2F2F2; }
+  background-color: #F2F2F2;
+  line-height: 1.5; }
 
 img {
   max-width: 100%; }

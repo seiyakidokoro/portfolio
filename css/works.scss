@@ -1,6 +1,5 @@
 .Works {
   &__head {
-    //text-align: center;
     font-size: 6.4rem;
     font-family: "Futura, sans-serif";
     font-family: 'Nanum Myeongjo', serif;
@@ -14,8 +13,6 @@
     font-family: 'Junge', serif;
     font-family: 'Cormorant SC', serif;
     font-family: 'Cutive', serif;
-    //font-family: 'Italianno', cursive;
-    //font-family: 'Didot_Italic';
     ::after{
 
     }
@@ -29,7 +26,8 @@
   }
   &__img {
     z-index: 1;
-    width: 580px;
+    //width: 580px;
+    width: 40vw;
     height: 0;
     padding-top: 62.5%;
     background-image: url('../images/annotating-bar.png');
@@ -63,10 +61,6 @@
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
       background-image: linear-gradient(to right, #525252 0%, #9d9d9d 100%);
-
-      //todo jsで付与する
-      //opacity: 1;
-      //transform: translateX(20px) translateY(20px);
     }
   }
   &__lead {
@@ -77,5 +71,6 @@
     display: flex;
     justify-content: space-between;
     align-items:flex-start;
+    margin-bottom: 8rem;
   }
 }

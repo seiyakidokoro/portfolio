@@ -19,7 +19,7 @@
   transition: transform 0.5s; }
 .Works__img {
   z-index: 1;
-  width: 580px;
+  width: 40vw;
   height: 0;
   padding-top: 62.5%;
   background-image: url("../images/annotating-bar.png");
@@ -57,6 +57,7 @@
 .Works__content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; }
+  align-items: flex-start;
+  margin-bottom: 8rem; }
 
 /*# sourceMappingURL=works.css.map */
