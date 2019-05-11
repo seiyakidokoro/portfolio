@@ -1,37 +1,34 @@
+@import "mixins";
+
 .Works {
-  &__head {
+  &__heading {
     font-size: 6.4rem;
-    font-family: "Futura, sans-serif";
-    font-family: 'Nanum Myeongjo', serif;
-    font-family: 'Quattrocento', serif;
-    font-family: 'IBM Plex Serif', serif;
-    font-family: 'Gentium Basic', serif;
-    font-family: 'Fredericka the Great', cursive;
-    font-family: 'IM Fell English SC', serif;
-    font-family: 'Londrina Outline', cursive;
-    font-family: 'Frijole', cursive;
-    font-family: 'Junge', serif;
-    font-family: 'Cormorant SC', serif;
     font-family: 'Cutive', serif;
     ::after {
 
     }
   }
+  &__body {
+    width: 50%;
+  }
   .hoge {
     transform-style: preserve-3d;
     perspective: 1000px;
+    width: 50%;
   }
   &__img-wrapper {
     transition: transform .5s
   }
   &__img {
     z-index: 1;
-    width: 40vw;
+    width: 100%;
     height: 0;
     padding-top: 62.5%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    @include sp {
+    }
 
     .is-active &::after {
       opacity: 1;
@@ -90,17 +87,13 @@
   }
 
   &__content2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 8rem;
+    @include sp {
+      flex-wrap: wrap;
+    }
   }
 
   &__content3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 8rem;
+
   }
 
   .reverse {

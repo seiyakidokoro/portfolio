@@ -1,25 +1,17 @@
-.Works__head {
+.Works__heading {
   font-size: 6.4rem;
-  font-family: "Futura, sans-serif";
-  font-family: 'Nanum Myeongjo', serif;
-  font-family: 'Quattrocento', serif;
-  font-family: 'IBM Plex Serif', serif;
-  font-family: 'Gentium Basic', serif;
-  font-family: 'Fredericka the Great', cursive;
-  font-family: 'IM Fell English SC', serif;
-  font-family: 'Londrina Outline', cursive;
-  font-family: 'Frijole', cursive;
-  font-family: 'Junge', serif;
-  font-family: 'Cormorant SC', serif;
   font-family: 'Cutive', serif; }
+.Works__body {
+  width: 50%; }
 .Works .hoge {
   transform-style: preserve-3d;
-  perspective: 1000px; }
+  perspective: 1000px;
+  width: 50%; }
 .Works__img-wrapper {
   transition: transform 0.5s; }
 .Works__img {
   z-index: 1;
-  width: 40vw;
+  width: 100%;
   height: 0;
   padding-top: 62.5%;
   background-repeat: no-repeat;
@@ -69,16 +61,9 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 8rem; }
-.Works__content2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 8rem; }
-.Works__content3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 8rem; }
+@media (max-width: 1780px) {
+  .Works__content2 {
+    flex-wrap: wrap; } }
 .Works .reverse {
   flex-direction: row-reverse; }
 .Works .reverse .hoge {

@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="./css/reset.css">
@@ -54,8 +55,8 @@
         <h2 class="Contents__head fadein left">Works</h2>
         <ul>
             <li>
-                <article class="Works__content3">
-                    <div>
+                <article class="Works__content rotate">
+                    <div class="Works__body">
                         <div class="fadein left">
                             <p class="Works__lead">ANDANTE(アンダンテ)</p>
                             <span>架空の大人向けピアノ教室サイト</span>
@@ -87,22 +88,23 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://seiyakidokoro.github.io/portfolio/piano">
                         <div class="hoge">
+                        <a href="https://seiyakidokoro.github.io/portfolio/piano" target="_blank">
                             <div class="Works__img-wrapper">
                                 <div class="Works__img Works__img--andante"></div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </article>
             </li>
             <li>
-                <article class="Works__content reverse">
-                    <div>
+                <article class="Works__content Works__content2 rotate reverse">
+                    <div class="Works__body">
                         <div class="fadein left">
                             <p class="Works__lead">イライラ棒風CSSミニゲーム</p>
                             <p>CSSのみで作成したミニゲームサイト</p>
-                            <a href="https://seiyakidokoro.github.io/portfolio/annotate" target="_blank">https://seiyakidokoro.github.io/portfolio/annotate</a>
+                            <a style="width: 100%" href="https://seiyakidokoro.github.io/portfolio/annotate"
+                               target="_blank">https://seiyakidokoro.github.io/portfolio/annotate</a>
                             <br>
                             <br>
                             <div>
@@ -115,20 +117,21 @@
                             </div>
                         </div>
                     </div>
-                    <a href="https://seiyakidokoro.github.io/portfolio/annotate" target="_blank">
-                        <div class="hoge">
+                    <div class="hoge">
+                        <a style="width: 100%" href="https://seiyakidokoro.github.io/portfolio/annotate"
+                           target="_blank">
                             <div class="Works__img-wrapper">
                                 <div class="Works__img Works__img--annotate"></div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </article>
             </li>
             <li>
-                <article class="Works__content2">
-                    <div>
+                <article class="Works__content rotate">
+                    <div class="Works__body">
                         <div class="fadein left">
-                            <p class="Works__lead">CoderDocs</p>
+                            <p class="Works__lead">Coder Docs</p>
                             <p>コーディング情報サイト</p>
                             <a href="http://coderdocs.net/" target="_blank">http://coderdocs.net/</a>
                             <br>
@@ -150,14 +153,15 @@
                             </div>
                         </div>
                     </div>
-                    <a href="http://coderdocs.net/" target="_blank">
-                        <div class="hoge">
+                    <div class="hoge">
+                        <a style="width: 100%" href="http://coderdocs.net/" target="_blank">
+
                             <div class="Works__img-wrapper">
                                 <div class="Works__img Works__img--coderdocs"
                                      style="background-image: url('./images/code_docs.png')"></div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </article>
             </li>
         </ul>
@@ -270,7 +274,7 @@
                 }
             });
 
-            $('.Works__content, .Works__content2, .Works__content3').each(function () {
+            $('.rotate').each(function () {
                 var targetElement = $(this).offset().top;
                 var scroll = $(window).scrollTop();
                 var windowHeight = $(window).height();

@@ -12,6 +12,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  width: 100%;
   font-size: 1.6rem;
   color: #2b2a28;
   background-color: #F2F2F2;
