@@ -60,7 +60,8 @@
                             <p class="Works__lead">ANDANTE(アンダンテ)</p>
                             <span>架空の大人向けピアノ教室サイト</span>
                             <p>
-                                <a style="color: #2b2a28" href="https://seiyakidokoro.github.io/portfolio/piano" target="_blank">https://seiyakidokoro.github.io/portfolio/piano</a>
+                                <a style="color: #2b2a28;" href="https://seiyakidokoro.github.io/portfolio/piano"
+                                   target="_blank">https://seiyakidokoro.github.io/portfolio/piano</a>
                             </p>
                             <br>
                             <br>
@@ -86,11 +87,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hoge">
-                        <div class="Works__img-wrapper">
-                            <div class="Works__img Works__img--andante"></div>
+                    <a href="https://seiyakidokoro.github.io/portfolio/piano">
+                        <div class="hoge">
+                            <div class="Works__img-wrapper">
+                                <div class="Works__img Works__img--andante"></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </article>
             </li>
             <li>
@@ -264,6 +267,15 @@
                     $(this).find('.Works__img-wrapper').css('transform', 'rotateX(30deg) rotateY(-20deg) rotateZ(5deg)');
                 }
             });
+        });
+        // スムーススクロール
+        $('a[href^="#"]').click(function() {
+            var speed = 400;
+            var href= $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $('body,html').animate({scrollTop:position}, speed, 'swing');
+            return false;
         });
     });
 
