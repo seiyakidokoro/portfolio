@@ -18,8 +18,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+                <state relative-caret-position="253">
+                  <caret line="137" column="59" selection-start-line="137" selection-start-column="59" selection-end-line="137" selection-end-column="59" />
                   <folding>
                     <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#article#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -31,7 +31,7 @@
                     <element signature="e#9816#10282#0" expanded="true" />
                     <element signature="e#11047#11350#0" expanded="true" />
                     <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1557559300681" expanded="true" signature="10039:10241" ph="..." />
+                    <marker date="1557560580927" expanded="true" signature="10744:10946" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -137,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Works__content</find>
       <find>__content</find>
       <find>大人向けピアノ教室サイト</find>
       <find>使用可能言語・ツール</find>
@@ -167,6 +166,7 @@
       <find>コンセプ</find>
       <find>コンセプト：</find>
       <find>CSSのみで作成したミニゲームサイト</find>
+      <find>として作成</find>
     </findStrings>
     <replaceStrings>
       <replace>./images</replace>
@@ -332,12 +332,12 @@
       <workItem from="1557287108841" duration="2156000" />
       <workItem from="1557320897966" duration="3355000" />
       <workItem from="1557395703978" duration="10319000" />
-      <workItem from="1557463874416" duration="16088000" />
+      <workItem from="1557463874416" duration="16726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202466000" />
+    <option name="totallyTimeSpent" value="203104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -645,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        <state relative-caret-position="253">
+          <caret line="137" column="59" selection-start-line="137" selection-start-column="59" selection-end-line="137" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#article#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -658,7 +658,7 @@
             <element signature="e#9816#10282#0" expanded="true" />
             <element signature="e#11047#11350#0" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1557559300681" expanded="true" signature="10039:10241" ph="..." />
+            <marker date="1557560580927" expanded="true" signature="10744:10946" ph="..." />
           </folding>
         </state>
       </provider>
