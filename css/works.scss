@@ -67,7 +67,7 @@
     }
   }
   &__img--annotate {
-    background-image: url('../images/anndante.png');
+    background-image: url('../images/annotating-bar.png');
     &::after {
       background-image: linear-gradient(to right, #525252 0%, #9d9d9d 100%);
     }
@@ -105,5 +105,9 @@
 
   .reverse {
     flex-direction: row-reverse;
+  }
+
+  .reverse .hoge {
+    transform: translateX(-8rem);
   }
 }

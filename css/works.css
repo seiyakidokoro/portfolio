@@ -54,7 +54,7 @@
   .Works__img--coderdocs::after {
     background-image: linear-gradient(to right, #fbbd9b 0%, #f3aa82 100%); }
 .Works__img--annotate {
-  background-image: url("../images/anndante.png"); }
+  background-image: url("../images/annotating-bar.png"); }
   .Works__img--annotate::after {
     background-image: linear-gradient(to right, #525252 0%, #9d9d9d 100%); }
 .Works__img--andante {
@@ -81,5 +81,7 @@
   margin-bottom: 8rem; }
 .Works .reverse {
   flex-direction: row-reverse; }
+.Works .reverse .hoge {
+  transform: translateX(-8rem); }
 
 /*# sourceMappingURL=works.css.map */
