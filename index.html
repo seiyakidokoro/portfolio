@@ -60,7 +60,7 @@
                             <p class="Works__lead">ANDANTE(アンダンテ)</p>
                             <span>架空の大人向けピアノ教室サイト</span>
                             <p>
-                                <a style="color: #2b2a28;" href="https://seiyakidokoro.github.io/portfolio/piano"
+                                <a href="https://seiyakidokoro.github.io/portfolio/piano"
                                    target="_blank">https://seiyakidokoro.github.io/portfolio/piano</a>
                             </p>
                             <br>
@@ -115,11 +115,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hoge">
-                        <div class="Works__img-wrapper">
-                            <div class="Works__img Works__img--annotate"></div>
+                    <a href="https://seiyakidokoro.github.io/portfolio/annotate" target="_blank">
+                        <div class="hoge">
+                            <div class="Works__img-wrapper">
+                                <div class="Works__img Works__img--annotate"></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </article>
             </li>
             <li>
@@ -142,12 +144,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hoge">
-                        <div class="Works__img-wrapper">
-                            <div class="Works__img Works__img--coderdocs"
-                                 style="background-image: url('./images/code_docs.png')"></div>
+                    <a href="http://coderdocs.net/" target="_blank">
+                        <div class="hoge">
+                            <div class="Works__img-wrapper">
+                                <div class="Works__img Works__img--coderdocs"
+                                     style="background-image: url('./images/code_docs.png')"></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </article>
             </li>
         </ul>
@@ -271,12 +275,12 @@
             });
         });
         // スムーススクロール
-        $('a[href^="#"]').click(function() {
+        $('a[href^="#"]').click(function () {
             var speed = 400;
-            var href= $(this).attr("href");
+            var href = $(this).attr("href");
             var target = $(href == "#" || href == "" ? 'html' : href);
             var position = target.offset().top;
-            $('body,html').animate({scrollTop:position}, speed, 'swing');
+            $('body,html').animate({scrollTop: position}, speed, 'swing');
             return false;
         });
     });

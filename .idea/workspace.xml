@@ -18,10 +18,9 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="104" column="103" selection-start-line="104" selection-start-column="103" selection-end-line="104" selection-end-column="103" />
+                <state relative-caret-position="286">
+                  <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
                   <folding>
-                    <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#0;n#article#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#article#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -32,7 +31,7 @@
                     <element signature="e#9816#10282#0" expanded="true" />
                     <element signature="e#11047#11350#0" expanded="true" />
                     <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1557558941688" expanded="true" signature="9961:10163" ph="..." />
+                    <marker date="1557559300681" expanded="true" signature="10039:10241" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -333,12 +332,12 @@
       <workItem from="1557287108841" duration="2156000" />
       <workItem from="1557320897966" duration="3355000" />
       <workItem from="1557395703978" duration="10319000" />
-      <workItem from="1557463874416" duration="15922000" />
+      <workItem from="1557463874416" duration="16088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202300000" />
+    <option name="totallyTimeSpent" value="202466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -646,10 +645,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="104" column="103" selection-start-line="104" selection-start-column="103" selection-end-line="104" selection-end-column="103" />
+        <state relative-caret-position="286">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#0;n#article#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#article#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -660,7 +658,7 @@
             <element signature="e#9816#10282#0" expanded="true" />
             <element signature="e#11047#11350#0" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1557558941688" expanded="true" signature="9961:10163" ph="..." />
+            <marker date="1557559300681" expanded="true" signature="10039:10241" ph="..." />
           </folding>
         </state>
       </provider>
