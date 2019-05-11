@@ -13,7 +13,7 @@
     font-family: 'Junge', serif;
     font-family: 'Cormorant SC', serif;
     font-family: 'Cutive', serif;
-    ::after{
+    ::after {
 
     }
   }
@@ -26,11 +26,9 @@
   }
   &__img {
     z-index: 1;
-    //width: 580px;
     width: 40vw;
     height: 0;
     padding-top: 62.5%;
-    background-image: url('../images/annotating-bar.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -60,7 +58,24 @@
       transform: translateX(0px) translateY(0px);
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
+    }
+  }
+  &__img--coderdocs {
+    background-image: url('../images/code_docs.png');
+    &::after {
+      background-image: linear-gradient(to right, #fbbd9b 0%, #f3aa82 100%);
+    }
+  }
+  &__img--annotate {
+    background-image: url('../images/anndante.png');
+    &::after {
       background-image: linear-gradient(to right, #525252 0%, #9d9d9d 100%);
+    }
+  }
+  &__img--andante {
+    background-image: url('../images/anndante.png');
+    &::after {
+      background-image: linear-gradient(to right, #3d484e 0%, #163043 100%);
     }
   }
   &__lead {
@@ -70,7 +85,25 @@
   &__content {
     display: flex;
     justify-content: space-between;
-    align-items:flex-start;
+    align-items: flex-start;
     margin-bottom: 8rem;
+  }
+
+  &__content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8rem;
+  }
+
+  &__content3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8rem;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
   }
 }

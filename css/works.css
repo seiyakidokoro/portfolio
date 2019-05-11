@@ -22,7 +22,6 @@
   width: 40vw;
   height: 0;
   padding-top: 62.5%;
-  background-image: url("../images/annotating-bar.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -49,8 +48,19 @@
     -ms-transform: translateX(0px) translateY(0px);
     transform: translateX(0px) translateY(0px);
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    backface-visibility: hidden; }
+.Works__img--coderdocs {
+  background-image: url("../images/code_docs.png"); }
+  .Works__img--coderdocs::after {
+    background-image: linear-gradient(to right, #fbbd9b 0%, #f3aa82 100%); }
+.Works__img--annotate {
+  background-image: url("../images/anndante.png"); }
+  .Works__img--annotate::after {
     background-image: linear-gradient(to right, #525252 0%, #9d9d9d 100%); }
+.Works__img--andante {
+  background-image: url("../images/anndante.png"); }
+  .Works__img--andante::after {
+    background-image: linear-gradient(to right, #3d484e 0%, #163043 100%); }
 .Works__lead {
   font-weight: bold;
   font-size: 2.4rem; }
@@ -59,5 +69,17 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 8rem; }
+.Works__content2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8rem; }
+.Works__content3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8rem; }
+.Works .reverse {
+  flex-direction: row-reverse; }
 
 /*# sourceMappingURL=works.css.map */

@@ -52,30 +52,89 @@
     <!--Works-->
     <section id="works" class="Works l-width">
         <h2 class="Contents__head fadein left">Works</h2>
-        <article class="Works__content">
-            <div>
-                <div class="fadein left">
-                    <p class="Works__lead">イライラ棒風CSSミニゲーム</p>
-                    <br>
-                    <p>CSSのみで作成したミニゲームサイト</p>
-                    <br>
-                    <br>
+        <ul>
+            <li>
+                <article class="Works__content3">
                     <div>
-                        <h4 style="font-weight: bold">作成経緯：</h4>
-                        海外サイトで見つけたCSSゲームに感化され、自身のコーディング力向上も踏まえて作成。<br><br>
-                        <h4 style="font-weight: bold">こだわり：</h4>
-                        勉強のためにJavaScriptは一切使わずにCSSのみで実装しています。 <br><br>
-                        <h4 style="font-weight: bold">工夫点：</h4>
-                        当たり判定には隣接セレクタを使うなど工夫をして、JavaScriptの代用をしました。
+                        <div class="fadein left">
+                            <p class="Works__lead">ANDANTE(アンダンテ)</p>
+                            <br>
+                            <p>架空の大人向けピアノ教室サイト</p>
+                            <br>
+                            <br>
+                            <div>
+                                <h4 style="font-weight: bold">コンセプト：</h4>
+                                ピアノは幼少期から習うイメージが強く、実際にピアノ教室のサイトでは子供向けのテイストが多いため大人の場合には少し問い合わせがしにくいと感じた。 <br>
+                                ただ大人になってからピアノを始めたいという層は一定層いるため、そういった需要を満たすサイトを作成。
+                                <h4 style="font-weight: bold">ターゲット：</h4>
+                                働くことができるようになったことで金銭的に少し余裕ができ、新しい趣味を増やしたいと思っている18歳から39歳くらいまでの大人。
+                                <h4 style="font-weight: bold">工夫点：</h4>
+                                子供の写真やイラストを使わずシンプルにすることで大人向けのテイストに。 <br>
+                                未経験でも安心という点と、時間的に制約があっても問題ないという点をアピール。
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="hoge">
-                <div class="Works__img-wrapper">
-                    <div class="Works__img"></div>
-                </div>
-            </div>
-        </article>
+                    <div class="hoge">
+                        <div class="Works__img-wrapper">
+                            <div class="Works__img Works__img--andante"></div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="Works__content reverse">
+                    <div>
+                        <div class="fadein left">
+                            <p class="Works__lead">イライラ棒風CSSミニゲーム</p>
+                            <br>
+                            <p>CSSのみで作成したミニゲームサイト</p>
+                            <br>
+                            <br>
+                            <div>
+                                <h4 style="font-weight: bold">作成経緯：</h4>
+                                海外サイトで見つけたCSSゲームに感化され、自身のコーディング力向上も踏まえて作成。<br><br>
+                                <h4 style="font-weight: bold">こだわり：</h4>
+                                勉強のためにJavaScriptは一切使わずにCSSのみで実装しています。 <br><br>
+                                <h4 style="font-weight: bold">工夫点：</h4>
+                                当たり判定には隣接セレクタを使うなど工夫をして、JavaScriptの代用をしました。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoge">
+                        <div class="Works__img-wrapper">
+                            <div class="Works__img Works__img--annotate" style="background-image: url('./images/annotating-bar.png')"></div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+            <li>
+                <article class="Works__content2">
+                    <div>
+                        <div class="fadein left">
+                            <p class="Works__lead">CoderDocs</p>
+                            <br>
+                            <p>コーディング情報サイト</p>
+                            <br>
+                            <br>
+                            <div>
+                                <h4 style="font-weight: bold">作成経緯：</h4>
+
+                                <h4 style="font-weight: bold">こだわり：</h4>
+
+                                <h4 style="font-weight: bold">工夫点：</h4>
+                                既存のWordpressテーマは使わずに、ブランクテーマから作成
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoge">
+                        <div class="Works__img-wrapper">
+                            <div class="Works__img Works__img--coderdocs" style="background-image: url('./images/code_docs.png')"></div>
+                        </div>
+                    </div>
+                </article>
+            </li>
+        </ul>
     </section>
 
     <!--Profile-->
@@ -89,6 +148,7 @@
                      style="width: 200px;height: 200px; border-radius: 50%">
                 <div class="Profile__body fadein">
                     大学卒業後、Web制作会社に入社し自社メディアサイトのサーバーサイド開発・運用保守を担当。<br>
+                    2019年からはアナリティクスによる数値解析、SNS運用等を兼務。 <br>
                     社内では教育担当を行い、社外でもCoderDojoメンターとして子供にプログラミングを教える。 <br>
                     趣味は2年前に始めたピアノとカメラ。
                 </div>
@@ -117,7 +177,10 @@
             <img src="./images/skill2.png" alt="">
             <div class="Skill__detail">
                 <h3 class="Skill__head">デザイン制作スキル</h3>
-                <span>使用可能言語・ツール</span>
+                2018年9月〜2019年3月までデジタルハリウッド静岡校にてデザインを学ぶ。<br>
+                プログラムの知識を生かしたコーディングや動きのあるアニメーションが得意。<br><br>
+
+                使用可能言語・ツール
                 <div class="Skill__body">
                     <ul>
                         <li>・HTML</li>
@@ -126,7 +189,6 @@
                         <li>・Illustrator</li>
                         <li>・XD</li>
                     </ul>
-                    プログラムの知識を生かしたコーディングや動きのあるアニメーションが得意。
                 </div>
             </div>
         </div>
@@ -182,13 +244,13 @@
                 }
             });
 
-            $('.Works__content').each(function () {
+            $('.Works__content, .Works__content2, .Works__content3').each(function () {
                 var targetElement = $(this).offset().top;
                 var scroll = $(window).scrollTop();
                 var windowHeight = $(window).height();
                 if (scroll > targetElement - windowHeight + 150) {
-                    $('.Works__img-wrapper').addClass('is-active');
-                    $('.Works__img-wrapper').css('transform', 'rotateX(30deg) rotateY(-20deg) rotateZ(5deg)');
+                    $(this).find('.Works__img-wrapper').addClass('is-active');
+                    $(this).find('.Works__img-wrapper').css('transform', 'rotateX(30deg) rotateY(-20deg) rotateZ(5deg)');
                 }
             });
         });
