@@ -66,6 +66,9 @@
     font-weight: bold; }
   .Header__item {
     margin-left: 2.8rem; }
+    .Header__item a {
+      color: #DADADA;
+      text-decoration: none; }
   .Header__title {
     position: absolute;
     top: 40rem;

@@ -65,7 +65,6 @@ $border-color: #738396;
     font-family: 'Junge', serif;
     font-family: 'Cormorant SC', serif;
     font-family: 'Italianno', cursive;
-    //font-family: 'IM Fell English', serif;
     transform: rotate(-2.4deg);
 
     font-stretch: condensed;
@@ -73,6 +72,11 @@ $border-color: #738396;
   }
   &__item {
     margin-left: 2.8rem;
+    a {
+      color: #DADADA;
+      text-decoration: none;
+    }
+  ;
   }
   /*------------------------------------*\
   title

@@ -88,7 +88,8 @@ Skill
     padding: 2rem; }
     @media (max-width: 780px) {
       .Skill__detail {
-        margin-left: 0; } }
+        margin-left: 0;
+        padding: 2rem 0; } }
   .Skill__head {
     margin-bottom: 2rem;
     font-weight: bold;
@@ -119,11 +120,14 @@ Skill
 Profile
 \------------------------------------*/
 .Profile__container {
-  padding: 100px 50px;
+  padding: 10rem 5rem;
   transform: skew(0deg, -4deg);
   background: #dde4e8;
   color: #333;
   margin-bottom: 12rem; }
+  @media (max-width: 780px) {
+    .Profile__container {
+      padding: 10rem 0; } }
 .Profile__wrapper {
   display: flex;
   align-items: flex-start; }
