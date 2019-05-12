@@ -118,6 +118,12 @@ Skill
 /*------------------------------------*\
 Profile
 \------------------------------------*/
+.Profile__container {
+  padding: 100px 50px;
+  transform: skew(0deg, -4deg);
+  background: #dde4e8;
+  color: #333;
+  margin-bottom: 12rem; }
 .Profile__wrapper {
   display: flex;
   align-items: flex-start; }

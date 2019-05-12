@@ -101,12 +101,21 @@
 
 .reverse {
   flex-direction: row-reverse;
+  @include sp {
+    flex-direction: row;
+  }
 }
 
 .reverse .hoge {
   transform: translateX(-4rem);
+  @include sp {
+    transform: translateX(0);
+  }
 }
 
 .reverse .Works__body {
   transform: translateX(2rem);
+  @include sp {
+    transform: translateX(0);
+  }
 }
