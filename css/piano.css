@@ -41,6 +41,7 @@ Header
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 100%;
     width: 72rem;
     height: 41rem; }
   .Header__title-logo {
@@ -118,9 +119,12 @@ Layout
   max-width: 100%;
   width: 110rem;
   margin: 0 auto; }
+  @media (max-width: 780px) {
+    .l-width {
+      width: 80%; } }
 
 .l-width-m {
-  max-width: 74rem;
+  max-width: 100%;
   width: 74rem;
   margin: 0 auto; }
 
@@ -181,10 +185,19 @@ Profile
     width: 30px;
     height: 2px;
     margin-bottom: 2rem; }
+.Profile__wrapper {
+  display: flex;
+  align-items: flex-start; }
+  @media (max-width: 780px) {
+    .Profile__wrapper {
+      flex-wrap: wrap; } }
+@media (max-width: 780px) {
+  .Profile__img-box {
+    width: 100%; } }
 .Profile__content {
   padding: 2rem;
   position: relative;
-  background-color: #eff4f5;
+  background-color: rgba(239, 244, 245, 0.9);
   margin-left: -4%;
   margin-top: 4%;
   width: 45%;
@@ -194,6 +207,10 @@ Profile
   opacity: 0; }
   .Profile__content.is-active {
     animation: Slide-in2 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s 1 forwards; }
+  @media (max-width: 780px) {
+    .Profile__content {
+      width: 80%;
+      margin: -14rem auto 0; } }
 .Profile__img {
   width: 55%; }
 
@@ -213,11 +230,21 @@ Lesson
   align-items: flex-start; }
   .Lesson__wrapper:not(last-of-type) {
     margin-bottom: 10rem; }
+  @media (max-width: 780px) {
+    .Lesson__wrapper {
+      flex-wrap: wrap; } }
 .Lesson__img {
   width: 45%; }
+  @media (max-width: 780px) {
+    .Lesson__img {
+      width: 100%; } }
 .Lesson__body {
   width: 48%;
   margin-left: 5%; }
+  @media (max-width: 780px) {
+    .Lesson__body {
+      width: 80%;
+      margin: -12rem auto 0; } }
 .Lesson__reserve {
   margin-left: 0;
   margin-right: 5%; }
@@ -243,6 +270,7 @@ Lesson
   background-repeat: repeat; }
 .Lesson__box-border {
   content: '';
+  max-width: 100%;
   width: 52.8rem;
   height: 30rem;
   position: absolute;
@@ -262,6 +290,9 @@ Lesson
   .Lesson__wrapper-reverse .Lesson__body {
     margin-left: 0;
     margin-right: 5%; }
+    @media (max-width: 780px) {
+      .Lesson__wrapper-reverse .Lesson__body {
+        margin: -12rem auto 0; } }
 
 .flex {
   display: flex;
@@ -277,6 +308,9 @@ Slide
   overflow: hidden;
   position: relative;
   width: 55%; }
+  @media (max-width: 780px) {
+    .Slide {
+      width: 100%; } }
 
 .Slide::after.is-active {
   transform: translateX(0px); }

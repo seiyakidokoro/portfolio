@@ -1,3 +1,4 @@
+@import "mixins";
 @import url('./font-awesome/css/fontawesome-all.css');
 
 html {
@@ -46,6 +47,7 @@ Header
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 100%;
     width: 72rem;
     height: 41rem;
   }
@@ -139,10 +141,13 @@ Layout
   max-width: 100%;
   width: 110rem;
   margin: 0 auto;
+  @include sp {
+    width: 80%;
+  }
 }
 
 .l-width-m {
-  max-width: 74rem;
+  max-width: 100%;
   width: 74rem;
   margin: 0 auto;
 }
@@ -218,10 +223,22 @@ Profile
       margin-bottom: 2rem;
     }
   }
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    @include sp {
+      flex-wrap: wrap;
+    }
+  }
+  &__img-box {
+    @include sp {
+      width: 100%;
+    }
+  }
   &__content {
     padding: 2rem;
     position: relative;
-    background-color: #eff4f5;
+    background-color: rgba(239,244,245,.9);;
     margin-left: -4%;
     margin-top: 4%;
     width: 45%;
@@ -231,6 +248,10 @@ Profile
     opacity: 0;
     &.is-active {
       animation: Slide-in2 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s 1 forwards;
+    }
+    @include sp {
+      width: 80%;
+      margin: -14rem auto 0;
     }
   }
   &__img {
@@ -258,13 +279,23 @@ Lesson
     &:not(last-of-type) {
       margin-bottom: 10rem;
     }
+    @include sp {
+      flex-wrap: wrap;
+    }
   }
   &__img {
     width: 45%;
+    @include sp {
+      width: 100%;
+    }
   }
   &__body {
     width: 48%;
     margin-left: 5%;
+    @include sp {
+      width: 80%;
+      margin: -12rem auto 0;
+    }
   }
   &__reserve {
     margin-left: 0;
@@ -296,6 +327,7 @@ Lesson
   }
   &__box-border {
     content: '';
+    max-width: 100%;
     width: 52.8rem;
     height: 30rem;
     position: absolute;
@@ -317,6 +349,9 @@ Lesson
     .Lesson__body {
       margin-left: 0;
       margin-right: 5%;
+      @include sp {
+        margin: -12rem auto 0;
+      }
     }
   }
 }
@@ -337,6 +372,9 @@ Slide
   overflow: hidden;
   position: relative;
   width: 55%;
+  @include sp {
+    width: 100%;
+  }
 }
 
 .Slide::after.is-active {
