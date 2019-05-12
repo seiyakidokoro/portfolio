@@ -119,6 +119,7 @@ Skill
     @include sp {
       text-align: center;
       margin: 0 auto;
+      transform: translateX(-10%);
     }
   }
 }
@@ -160,6 +161,9 @@ Profile
   }
   &__img {
     text-align: center;
+    @include sp {
+      margin-bottom: 2rem;
+    }
   }
 }
 

@@ -97,7 +97,8 @@ Skill
   @media (max-width: 780px) {
     .Skill__img {
       text-align: center;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      transform: translateX(-10%); } }
 
 .Skill__number {
   position: absolute;
@@ -130,6 +131,9 @@ Profile
       padding: 0; } }
 .Profile__img {
   text-align: center; }
+  @media (max-width: 780px) {
+    .Profile__img {
+      margin-bottom: 2rem; } }
 
 /*------------------------------------*\
 Profile

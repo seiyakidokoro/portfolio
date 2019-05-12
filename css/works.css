@@ -13,7 +13,9 @@
   @media (max-width: 780px) {
     .Works .hoge {
       width: 100%;
-      margin-left: -2rem; } }
+      margin-top: -2rem;
+      margin-left: -2rem;
+      margin-bottom: 4rem; } }
 .Works__img-wrapper {
   transition: transform 0.5s; }
 .Works__img {
