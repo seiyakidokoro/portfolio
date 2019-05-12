@@ -130,10 +130,12 @@ Profile
     .Profile__body {
       padding: 0; } }
 .Profile__img {
+  filter: drop-shadow(-11px -2px 26px rgba(0, 0, 0, 0.14));
   text-align: center; }
   @media (max-width: 780px) {
     .Profile__img {
-      margin-bottom: 2rem; } }
+      width: 100%;
+      margin-bottom: 4rem; } }
 
 /*------------------------------------*\
 Profile

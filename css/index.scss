@@ -160,9 +160,11 @@ Profile
     }
   }
   &__img {
+    filter: drop-shadow(-11px -2px 26px rgba(0, 0, 0, 0.14));
     text-align: center;
     @include sp {
-      margin-bottom: 2rem;
+      width: 100%;
+      margin-bottom: 4rem;
     }
   }
 }
