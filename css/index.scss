@@ -148,13 +148,13 @@ Profile
 \------------------------------------*/
 .Profile {
   &__container {
-    padding:10rem 5rem;
-    transform:skew(0deg, -4deg);
-    background:#dde4e8;
-    color:#333;
+    padding: 10rem 5rem;
+    transform: skew(0deg, -4deg);
+    background: #dde4e8;
+    color: #333;
     margin-bottom: 12rem;
     @include sp {
-      padding:10rem 0;
+      padding: 10rem 0;
     }
   }
   &__wrapper {
@@ -209,4 +209,7 @@ footer small {
 .footer_ul li {
   padding: 0 4rem;
   color: #000000;
+  @include sp {
+    padding: 0 1rem;
+  }
 }

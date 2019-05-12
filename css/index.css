@@ -171,5 +171,8 @@ footer small {
 .footer_ul li {
   padding: 0 4rem;
   color: #000000; }
+  @media (max-width: 780px) {
+    .footer_ul li {
+      padding: 0 1rem; } }
 
 /*# sourceMappingURL=index.css.map */
