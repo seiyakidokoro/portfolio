@@ -19,7 +19,6 @@
           rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/t.min.js"></script>
-    <script src="js/jquery.inview.js"></script>
 </head>
 <body id="particles-js">
 
@@ -42,7 +41,7 @@
         </div>
     </h1>
     <div class="Header__arrow">
-        <a data-scroll="scroll" href="#work">
+        <a href="#works">
             <i class="fa fa-chevron-circle-down"></i>
         </a>
     </div>
@@ -66,7 +65,6 @@
                             </p>
                             <br>
                             <br>
-                            <br>
                             <div>
                                 <h4 style="font-weight: bold">コンセプト：</h4>
                                 <p>
@@ -88,7 +86,7 @@
                             </div>
                         </div>
                     </div>
-                        <div class="hoge">
+                    <div class="hoge">
                         <a href="https://seiyakidokoro.github.io/portfolio/piano" target="_blank">
                             <div class="Works__img-wrapper">
                                 <div class="Works__img Works__img--andante"></div>
@@ -108,6 +106,7 @@
                             <br>
                             <br>
                             <div>
+                                <br>
                                 <h4 style="font-weight: bold">作成経緯：</h4>
                                 海外サイトで見つけたCSSゲームに感化され、自身のコーディング力向上も踏まえて作成。<br><br>
                                 <h4 style="font-weight: bold">こだわり：</h4>
@@ -137,6 +136,7 @@
                             <br>
                             <br>
                             <div>
+                                <br>
                                 <h4 style="font-weight: bold">作成経緯：</h4>
                                 学習したコーディング知識のアウトプットの場として作成。<br>
                                 主なターゲットとしては、紙のデザインはやったことあるがコーディングの経験はないという新卒やデザインスクールの生徒を想定。
@@ -174,8 +174,10 @@
         </div>
         <div style="padding:100px 50px; transform:skew(0deg, -4deg); background:#dde4e8; color:#333;margin-bottom: 12rem;">
             <div class="Profile__wrapper l-width" style="transform:skew(0deg, 4deg);">
-                <img class="Profile__img fadein left" src="./images/sk.jpg" alt=""
-                     style="width: 200px;height: 200px; border-radius: 50%">
+                <p class="Profile__img">
+                    <img class="Profile__img fadein left" src="./images/sk.jpg" alt=""
+                         style="width: 200px;height: 200px; border-radius: 50%">
+                </p>
                 <div class="Profile__body fadein">
                     大学卒業後、Web制作会社に入社し自社メディアサイトのサーバーサイド開発・運用保守を担当。<br>
                     2019年からはアナリティクスによる数値解析、SNS運用等を兼務。 <br>
@@ -190,7 +192,9 @@
     <section id="skill" class="Skill l-width">
         <h2 class="Contents__head fadein left">Skill</h2>
         <div class="Skill__wrapper fadein">
-            <img src="./images/skill.png" alt="">
+            <p class="Skill__img">
+                <img src="./images/skill.png" alt="">
+            </p>
             <div class="Skill__detail">
                 <h3 class="Skill__head">英語スキル</h3>
                 <div class="Skill__body">
@@ -204,7 +208,9 @@
 
         <!--design skill-->
         <div class="Skill__wrapper fadein">
-            <img src="./images/skill2.png" alt="">
+            <p class="Skill__img">
+                <img src="./images/skill2.png" alt="">
+            </p>
             <div class="Skill__detail">
                 <h3 class="Skill__head">デザイン制作スキル</h3>
                 2018年9月〜2019年3月までデジタルハリウッド静岡校にてデザインを学ぶ。<br>
@@ -225,7 +231,9 @@
 
         <!--programming skill-->
         <div class="Skill__wrapper fadein">
-            <img src="./images/skill3.png" alt="">
+            <p class="Skill__img">
+                <img src="./images/skill3.png" alt="">
+            </p>
             <div class="Skill__detail">
                 <h3 class="Skill__head">プログラミングスキル</h3>
                 フレームワーク(FuelPHP、Laravel)を用いたサーバーサイド開発経験(4年) <br>
@@ -256,11 +264,11 @@
 </div>
 
 <!--Loading-->
-<div class="Loading">
-<div class="Loading__bar"></div>
-<div class="Loading__up" style="height: 50%;"></div>
-<div class="Loading__down" style="height: 50%;"></div>
-</div>
+<!--<div class="Loading sp-only">-->
+<!--<div class="Loading__bar"></div>-->
+<!--<div class="Loading__up" style="height: 50%;"></div>-->
+<!--<div class="Loading__down" style="height: 50%;"></div>-->
+<!--</div>-->
 
 <script>
     $(function () {
@@ -295,46 +303,52 @@
         });
     });
 
-    // Opening
-    $('.Loading__bar').animate({'width': 100 + '%'}, 3000, function () {
-        $(this).css({'left': 'auto', 'right': '0'}).animate({'width': '0%'}, 500, function () {
-            $('.Loading__up').delay(100).animate({'height': '0%'}, 625);
-            $('.Loading__down').delay(100).animate({'height': '0%'}, 625, function () {
-                $('#js-target').t({
-                    caret: true, //カーソル
-                    blink: false, //カーソルの点滅の有無
-                    blink_perm: false, //カーソルの点滅の継続
-                    repeat: 0, //繰り返し
-                    tag: 'span', //要素を内包するタグ
-                    fin: function (elm) {
-                        $('.t-caret').css('opacity', 0);
-                        $('.Header__top-bar').animate({
-                            'height': '0.8rem'
-                        }, 1000);
-                        $('.Header__right-bar').animate({
-                            'width': '0.8rem'
-                        }, 1000);
-                        $('.Header__bottom-bar').animate({
-                            'height': '0.8rem'
-                        }, 1000);
-                        $('.Header__left-bar').animate({
-                            'width': '0.8rem'
-                        }, 1000);
+    // Loading PCのみ
+    if (window.matchMedia('(min-width: 779px)').matches) { //切り替える画面サイズ
+        $('.Loading__bar').animate({'width': 100 + '%'}, 3000, function () {
+            $(this).css({'left': 'auto', 'right': '0'}).animate({'width': '0%'}, 500, function () {
+                $('.Loading__up').delay(100).animate({'height': '0%'}, 625);
+                $('.Loading__down').delay(100).animate({'height': '0%'}, 625, function () {
+                    $('#js-target').t({
+                        caret: true, //カーソル
+                        blink: false, //カーソルの点滅の有無
+                        blink_perm: false, //カーソルの点滅の継続
+                        repeat: 0, //繰り返し
+                        tag: 'span', //要素を内包するタグ
+                        fin: function (elm) {
+                            $('.t-caret').css('opacity', 0);
+                            $('.Header__top-bar').animate({
+                                'height': '0.8rem'
+                            }, 1000);
+                            $('.Header__right-bar').animate({
+                                'width': '0.8rem'
+                            }, 1000);
+                            $('.Header__bottom-bar').animate({
+                                'height': '0.8rem'
+                            }, 1000);
+                            $('.Header__left-bar').animate({
+                                'width': '0.8rem'
+                            }, 1000);
 
-                        $('.Header__list').animate({
-                            'opacity': '1'
-                        }, 1000);
+                            $('.Header__list').animate({
+                                'opacity': '1'
+                            }, 1000);
 
-                        $('.Header__arrow').animate({
-                            'opacity': '1'
-                        }, 1000);
-                        $('html').css('overflow', 'visible');
-                    }
+                            $('.Header__arrow').animate({
+                                'opacity': '1'
+                            }, 1000);
+                            $('html').css('overflow', 'visible');
+                            $('.Loading').hide();
+                        }
+                    });
                 });
-            });
 
+            });
         });
-    });
+    }
+    else {
+        $('.sp-only').hide();
+    }
 </script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>

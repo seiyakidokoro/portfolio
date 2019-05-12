@@ -1,7 +1,12 @@
+@import "mixins";
+
 .l-width {
   max-width: 100%;
   width: 70%;
   margin: 0 auto;
+  @include sp {
+    width: 80%;
+  }
 }
 
 .l-mb20 {

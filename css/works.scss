@@ -4,17 +4,21 @@
   &__heading {
     font-size: 6.4rem;
     font-family: 'Cutive', serif;
-    ::after {
-
-    }
   }
   &__body {
     width: 50%;
+    @include sp {
+      width: 100%;
+    }
   }
   .hoge {
     transform-style: preserve-3d;
     perspective: 1000px;
     width: 50%;
+    @include sp {
+      width: 100%;
+      margin-left: -2rem;
+    }
   }
   &__img-wrapper {
     transition: transform .5s
@@ -28,8 +32,8 @@
     background-size: cover;
     background-position: center center;
     @include sp {
+      margin-bottom: 4rem;
     }
-
     .is-active &::after {
       opacity: 1;
       transform: translateX(20px) translateY(20px);
@@ -84,23 +88,23 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 8rem;
-  }
-
-  &__content2 {
+    flex-wrap: wrap;
     @include sp {
-      flex-wrap: wrap;
+      margin-right: 0;
+      flex-direction: column;
+      flex-flow: row wrap-reverse;
     }
   }
+}
 
-  &__content3 {
+.reverse {
+  flex-direction: row-reverse;
+}
 
-  }
+.reverse .hoge {
+  transform: translateX(-4rem);
+}
 
-  .reverse {
-    flex-direction: row-reverse;
-  }
-
-  .reverse .hoge {
-    transform: translateX(-8rem);
-  }
+.reserve .Works__body {
+  padding-left: 2rem;
 }
