@@ -3,19 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="aa3a7855-a76a-410d-b266-4d6ca13a3c24" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contents.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/hotaru.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/layout.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/piano.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/works.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/works.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/piano.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/piano.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/piano.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/piano.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/works.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/works.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/works.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/works.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/piano.html" beforeDir="false" afterPath="$PROJECT_DIR$/piano.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/piano.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/piano.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,62 +21,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="works.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/works.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="works.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/works.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/base.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="blog.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/blog.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.41594827">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="369">
+                  <caret line="303" column="20" lean-forward="true" selection-start-line="303" selection-start-column="20" selection-end-line="303" selection-end-column="20" />
+                  <folding>
+                    <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="e#11592#12475#0" expanded="true" />
+                    <element signature="e#11636#11951#0" expanded="true" />
+                    <element signature="e#11997#12463#0" expanded="true" />
+                    <element signature="e#12543#12848#0" expanded="true" />
+                    <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="piano.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/piano.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="155" column="36" lean-forward="true" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+                  <folding>
+                    <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#4;n#div#1;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build/css/index.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="piano.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build/css/piano.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="143">
+                  <caret line="501" column="15" lean-forward="true" selection-start-line="501" selection-start-column="15" selection-end-line="501" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="works.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/works.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="48">
+                  <caret line="9" column="17" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="piano.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/piano.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="145" column="3" lean-forward="true" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mixins.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/mixins.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,23 +115,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>feature1</find>
-      <find>feature02</find>
-      <find>.Lesson__body {</find>
-      <find>__wrapper-reverse</find>
-      <find>5%</find>
-      <find>Lesson__img</find>
-      <find>reserve</find>
-      <find>margin-left: 5rem;</find>
-      <find>-12rem 0 auto</find>
-      <find>box-border</find>
-      <find>48</find>
-      <find>margin-right: 3rem;</find>
       <find>feature01</find>
       <find>_wrapper</find>
       <find>__title</find>
       <find>point-head</find>
-      <find>l-wi</find>
       <find>__content</find>
       <find>2.8rem</find>
       <find>.dev</find>
@@ -121,6 +132,19 @@
       <find>.hoge</find>
       <find>hoge</find>
       <find>px</find>
+      <find>アクセス</find>
+      <find>fadein</find>
+      <find>90%</find>
+      <find>left</find>
+      <find>scrollin</find>
+      <find>right</find>
+      <find>..right</find>
+      <find>@include</find>
+      <find>.right</find>
+      <find>margin-right: 8rem;</find>
+      <find>l-width</find>
+      <find>l-wi</find>
+      <find>@include pc</find>
     </findStrings>
     <replaceStrings>
       <replace>./images</replace>
@@ -157,17 +181,19 @@
         <option value="$PROJECT_DIR$/css/layout.scss" />
         <option value="$PROJECT_DIR$/css/index.scss" />
         <option value="$PROJECT_DIR$/css/header.scss" />
-        <option value="$PROJECT_DIR$/piano.html" />
         <option value="$PROJECT_DIR$/css/piano.scss" />
-        <option value="$PROJECT_DIR$/scss/piano.scss" />
         <option value="$PROJECT_DIR$/scss/blog.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/build/css/works.css" />
         <option value="$PROJECT_DIR$/css/works.scss" />
         <option value="$PROJECT_DIR$/css/works.css" />
         <option value="$PROJECT_DIR$/scss/works.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/piano.html" />
+        <option value="$PROJECT_DIR$/build/css/piano.css" />
+        <option value="$PROJECT_DIR$/scss/mixins.scss" />
+        <option value="$PROJECT_DIR$/scss/piano.scss" />
       </list>
     </option>
   </component>
@@ -217,7 +243,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="igno&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/.gitignore&#10;wor&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/works.scss&#10;gitig&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/.gitignore&#10;piano&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/piano.scss&#10;Head&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;He&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;works&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/works.scss&#10;layout&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/layout.scss&#10;base&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/base.scss&#10;pia&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/piano.html&#10;Conte&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/contents.scss&#10;Header&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;conte&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/contents.scss&#10;annota&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/annotate.css&#10;anno&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/annotate.html&#10;index&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/index.html&#10;header&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;blo&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/blog.scss&#10;ba&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/base.scss&#10;ann&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/annotate.html&#10;css&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/annotate.css" />
+    <property name="SearchEverywhereHistoryKey" value="piano&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/scss/piano.scss&#10;pian&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/piano.html&#10;igno&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/.gitignore&#10;wor&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/works.scss&#10;gitig&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/.gitignore&#10;Head&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;He&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;works&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/works.scss&#10;layout&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/layout.scss&#10;base&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/base.scss&#10;pia&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/piano.html&#10;Conte&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/contents.scss&#10;Header&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;conte&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/contents.scss&#10;annota&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/annotate.css&#10;anno&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/annotate.html&#10;index&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/index.html&#10;header&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;blo&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/blog.scss&#10;ba&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/base.scss&#10;ann&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/annotate.html&#10;css&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/annotate.css" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -301,15 +327,16 @@
       <workItem from="1557395703978" duration="10319000" />
       <workItem from="1557463874416" duration="34536000" />
       <workItem from="1557717248439" duration="3452000" />
-      <workItem from="1557733955398" duration="5295000" />
+      <workItem from="1557733955398" duration="8413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238684000" />
+    <option name="totallyTimeSpent" value="241802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="GfmBrowser" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -317,9 +344,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32980132" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32980132" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32980132" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32980132" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23922414" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23922414" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -374,19 +401,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>285</line>
+          <properties lambdaOrdinal="-1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/piano-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/piano-logo2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/profile1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/q-image-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/profile2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -416,13 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2592">
           <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/piano.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -456,19 +476,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/reset.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/piano.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/works.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/piano.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -547,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/css/works.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -596,17 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/works.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -614,20 +603,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/works.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/base.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blog.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/piano.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/works.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="352">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/piano.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="155" column="36" lean-forward="true" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#4;n#div#1;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/works.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/piano.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="501" column="15" lean-forward="true" selection-start-line="501" selection-start-column="15" selection-end-line="501" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="303" column="20" lean-forward="true" selection-start-line="303" selection-start-column="20" selection-end-line="303" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#11592#12475#0" expanded="true" />
+            <element signature="e#11636#11951#0" expanded="true" />
+            <element signature="e#11997#12463#0" expanded="true" />
+            <element signature="e#12543#12848#0" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/piano.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="145" column="3" lean-forward="true" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="3" />
         </state>
       </provider>
     </entry>

@@ -126,6 +126,9 @@ Layout
   max-width: 100%;
   width: 110rem;
   margin: 0 auto; }
+  @media (max-width: 1320px) {
+    .l-width {
+      width: 75%; } }
   @media (max-width: 780px) {
     .l-width {
       width: 90%; } }
@@ -339,6 +342,7 @@ Lesson
     margin-right: 8rem; }
     @media (max-width: 780px) {
       .Lesson__wrapper-reverse .Lesson__body {
+        margin-left: 3%;
         margin-right: 0; } }
   .Lesson__wrapper-reverse .Lesson__img {
     position: relative; }
@@ -502,10 +506,18 @@ js 画像のフェ－ドイン
 .fadein.right {
   -webkit-transform: translate(80px, 0);
   transform: translate(80px, 0); }
+  @media (max-width: 780px) {
+    .fadein.right {
+      -webkit-transform: translate(0, 80px);
+      transform: translate(0, 80px); } }
 
 .fadein.left {
   -webkit-transform: translate(-80px, 0);
   transform: translate(-80px, 0); }
+  @media (max-width: 780px) {
+    .fadein.left {
+      -webkit-transform: translate(0, 80px);
+      transform: translate(0, 80px); } }
 
 .fadein.top {
   -webkit-transform: translate(0, -80px);
