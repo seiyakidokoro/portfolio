@@ -36,6 +36,9 @@ Header
   width: 100%;
   display: block;
   overflow: hidden; }
+  @media (max-width: 780px) {
+    .Header {
+      display: none; } }
   .Header__wrapper {
     position: absolute;
     top: 50%;
@@ -540,6 +543,13 @@ js 画像のフェ－ドイン
   -webkit-transition-delay: 1.1s;
   transition-delay: 1.1s; }
 
+.sp-only {
+  display: none; }
+  @media (max-width: 780px) {
+    .sp-only {
+      display: block;
+      width: 100%; } }
+
 .Loading {
   position: fixed;
   top: 0;
@@ -548,6 +558,9 @@ js 画像のフェ－ドイン
   bottom: 0;
   z-index: 100;
   background: radial-gradient(darkgray, #000); }
+  @media (max-width: 780px) {
+    .Loading {
+      display: none; } }
   .Loading__img {
     position: absolute;
     top: 0;
