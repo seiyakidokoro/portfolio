@@ -68,7 +68,7 @@
       text-decoration: none; }
   .Header__title {
     position: absolute;
-    top: 40rem;
+    top: 50vh;
     left: 30rem;
     transform: rotate(-4deg);
     transform-origin: left;
