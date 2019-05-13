@@ -23,6 +23,9 @@ video {
   min-height: 100%;
   width: auto;
   height: auto; }
+  @media (max-width: 780px) {
+    video {
+      display: none; } }
 
 h2 {
   opacity: 0; }
@@ -36,9 +39,6 @@ Header
   width: 100%;
   display: block;
   overflow: hidden; }
-  @media (max-width: 780px) {
-    .Header {
-      display: none; } }
   .Header__wrapper {
     position: absolute;
     top: 50%;
@@ -48,6 +48,9 @@ Header
     max-width: 100%;
     width: 72rem;
     height: 41rem; }
+    @media (max-width: 780px) {
+      .Header__wrapper {
+        width: 80%; } }
   .Header__title-logo {
     position: absolute;
     top: 50%;
@@ -56,6 +59,9 @@ Header
     transform: translate(-50%, -50%);
     color: #fff;
     opacity: 0; }
+    @media (max-width: 780px) {
+      .Header__title-logo {
+        width: 70%; } }
   .Header__title-logo.is-active {
     -webkit-animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards;
     animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards; }
@@ -548,6 +554,7 @@ js 画像のフェ－ドイン
   @media (max-width: 780px) {
     .sp-only {
       display: block;
+      height: 100vh;
       width: 100%; } }
 
 .Loading {
@@ -558,9 +565,6 @@ js 画像のフェ－ドイン
   bottom: 0;
   z-index: 100;
   background: radial-gradient(darkgray, #000); }
-  @media (max-width: 780px) {
-    .Loading {
-      display: none; } }
   .Loading__img {
     position: absolute;
     top: 0;
