@@ -1,6 +1,6 @@
 .Contents {
-  padding-top: 11rem; }
-  .Contents__head {
+  padding-top: 11rem;
+  &__head {
     font-size: 6.4rem;
     font-family: "Futura, sans-serif";
     font-family: 'Nanum Myeongjo', serif;
@@ -14,18 +14,22 @@
     font-family: 'Junge', serif;
     font-family: 'Cormorant SC', serif;
     font-family: 'Cutive', serif;
+    //font-family: 'Italianno', cursive;
+    //font-family: 'Didot_Italic';
     position: relative;
     display: inline-block;
-    margin-bottom: 8rem; }
-  .Contents__head::after {
+    margin-bottom: 8rem;
+  }
+  &__head::after {
     content: "";
     height: 1px;
     display: block;
     background-color: #000;
+    width: -webkit-calc(100% + 50vw);
     width: calc(100% + 50vw);
     position: absolute;
     right: 0;
     left: -50vw;
-    bottom: 0; }
-
-/*# sourceMappingURL=contents.css.map */
+    bottom: 0;
+  }
+}

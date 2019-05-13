@@ -53,11 +53,14 @@
     position: absolute;
     top: 4rem;
     right: 11rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     opacity: 0;
     color: #dadada;
     font-size: 2.4rem;
     font-family: 'Italianno', cursive;
+    -webkit-transform: rotate(-2.4deg);
     transform: rotate(-2.4deg);
     font-stretch: condensed;
     font-weight: bold; }
@@ -70,7 +73,9 @@
     position: absolute;
     top: 50vh;
     left: 30rem;
+    -webkit-transform: rotate(-4deg);
     transform: rotate(-4deg);
+    -webkit-transform-origin: left;
     transform-origin: left;
     font-weight: bold; }
     .Header__title span {
@@ -83,12 +88,21 @@
     margin-left: -1.5vw;
     top: 80%;
     left: 50%;
+    -webkit-animation: huwahuwa 2s infinite alternate linear;
     animation: huwahuwa 2s infinite alternate linear; }
     .Header__arrow a {
       display: block;
       cursor: pointer; }
     .Header__arrow i {
       color: #738396; }
+
+@-webkit-keyframes huwahuwa {
+  0% {
+    top: 80%; }
+  50% {
+    top: 81%; }
+  100% {
+    top: 80%; } }
 
 @keyframes huwahuwa {
   0% {

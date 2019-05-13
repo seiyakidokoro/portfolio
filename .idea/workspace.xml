@@ -2,36 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3a7855-a76a-410d-b266-4d6ca13a3c24" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/hero-sp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/contents.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/hotaru.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/piano.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/works.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contents.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contents.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contents.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/contents.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/header.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/01-fabric-shirt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/02-heavy-paper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/03-light-carpet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/04-polish-wood.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/05-white-brick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/06-white-cardboard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alpaca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/alpaca2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/auto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_ivory_pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bgc-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bgc-eyecatch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cafe-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cafe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/contain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/r1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/r2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sblog-prf004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/uni1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/uni2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/uni3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hotaru.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hotaru.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hotaru.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/hotaru.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mixins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mixins.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/mixins.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/piano.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/piano.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/piano.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/piano.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/works.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/works.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/works.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/works.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,30 +45,82 @@
     <splitter split-orientation="horizontal" split-proportion="0.4849138">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/base.scss">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="layout.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/layout.scss">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="blog.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/blog.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="389">
-                  <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-                  <folding>
-                    <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#article#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#div#1;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#div#1;n#article#0;n#li#2;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="e#11048#12351#0" expanded="true" />
-                    <element signature="e#11087#11970#0" expanded="true" />
-                    <element signature="e#9411#9726#0" expanded="true" />
-                    <element signature="e#11492#11958#0" expanded="true" />
-                    <element signature="e#11047#11350#0" expanded="true" />
-                    <element signature="e#12738#14307#0" expanded="true" />
-                    <element signature="e#12834#14299#0" expanded="true" />
-                    <element signature="e#12995#14286#0" expanded="true" />
-                    <element signature="e#13295#14252#0" expanded="true" />
-                    <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1557641336748" expanded="true" signature="11378:11600" ph="..." />
-                  </folding>
+                <state relative-caret-position="32">
+                  <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="works.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/works.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-104" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="piano.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/piano.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build/css/base.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="208">
+                  <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build/css/blog.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="80">
+                  <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blog.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/blog.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="blog.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/blog.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="16">
+                  <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -76,29 +129,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/index.scss">
+          <file leaf-file-name="piano.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/piano.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1744">
-                  <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+                <state relative-caret-position="357">
+                  <caret line="361" column="25" selection-start-line="361" selection-start-column="25" selection-end-line="361" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/base.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+                <state relative-caret-position="1584">
+                  <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -106,8 +150,8 @@
           <file leaf-file-name="works.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/works.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1299">
-                  <caret line="84" selection-start-line="84" selection-end-line="84" />
+                <state relative-caret-position="1840">
+                  <caret line="115" selection-start-line="115" selection-end-line="115" />
                 </state>
               </provider>
             </entry>
@@ -142,24 +186,19 @@
           <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="505">
-                  <caret line="170" selection-start-line="170" selection-end-line="170" />
+                <state relative-caret-position="2752">
+                  <caret line="172" column="30" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/reset.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+                <state relative-caret-position="2592">
+                  <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="metal2.jpg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/images/metal2.jpg">
-              <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
         </leaf>
@@ -175,36 +214,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__detail</find>
-      <find>コンセプト：</find>
-      <find>経緯</find>
-      <find>margin</find>
-      <find>margin-left: -2rem;</find>
-      <find>hoge</find>
-      <find>Skill__img</find>
-      <find>__img</find>
-      <find>Prof</find>
-      <find>sl</find>
-      <find>sk</find>
-      <find>行う</find>
-      <find>にて</find>
-      <find>sk.</find>
-      <find>Pro</find>
-      <find>profile2</find>
-      <find>Profi</find>
+      <find>row-reverse;</find>
+      <find>-12rem auto 0</find>
+      <find>__body</find>
+      <find>margin-top: -12rem auto 0</find>
+      <find>feature1</find>
+      <find>feature02</find>
+      <find>.Lesson__body {</find>
+      <find>__wrapper-reverse</find>
+      <find>5%</find>
+      <find>Lesson__img</find>
+      <find>reserve</find>
+      <find>margin-left: 5rem;</find>
+      <find>-12rem 0 auto</find>
+      <find>box-border</find>
+      <find>48</find>
+      <find>margin-right: 3rem;</find>
+      <find>feature01</find>
+      <find>_wrapper</find>
+      <find>__title</find>
+      <find>point-head</find>
+      <find>l-wi</find>
+      <find>__content</find>
+      <find>2.8rem</find>
+      <find>.dev</find>
+      <find>Lesson__body</find>
+      <find>absolut</find>
+      <find>30rem</find>
       <find>reverse</find>
-      <find>flex-direction</find>
-      <find>Profile</find>
-      <find>Skill</find>
-      <find>works</find>
-      <find>HEader</find>
-      <find>__list</find>
-      <find>一定層いるため、</find>
-      <find>footer</find>
-      <find>.footer_ul li</find>
-      <find>Loadin</find>
-      <find>Header</find>
-      <find>Load</find>
+      <find>23回</find>
+      <find>本誌打ち合わせ</find>
     </findStrings>
     <replaceStrings>
       <replace>./images</replace>
@@ -236,17 +275,20 @@
         <option value="$PROJECT_DIR$/annotate.html" />
         <option value="$PROJECT_DIR$/css/works.css" />
         <option value="$PROJECT_DIR$/css/contents.scss" />
-        <option value="$PROJECT_DIR$/css/piano.scss" />
-        <option value="$PROJECT_DIR$/piano.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/css/base.scss" />
         <option value="$PROJECT_DIR$/css/mixins.scss" />
         <option value="$PROJECT_DIR$/css/layout.scss" />
         <option value="$PROJECT_DIR$/css/works.scss" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/css/index.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/header.scss" />
+        <option value="$PROJECT_DIR$/piano.html" />
+        <option value="$PROJECT_DIR$/css/piano.scss" />
+        <option value="$PROJECT_DIR$/scss/piano.scss" />
+        <option value="$PROJECT_DIR$/scss/blog.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -256,12 +298,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="551" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="889" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -269,6 +317,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,18 +328,28 @@
             <path>
               <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="blog.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="Head&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;He&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;works&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/works.scss&#10;layout&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/layout.scss&#10;piano&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/piano.html&#10;base&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/base.scss&#10;pia&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/piano.html&#10;Conte&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/contents.scss&#10;Header&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;conte&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/contents.scss&#10;annota&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/annotate.css&#10;anno&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/annotate.html&#10;index&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/index.html&#10;header&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;blo&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/blog.scss&#10;ba&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/base.scss&#10;ann&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/annotate.html&#10;wor&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/works.scss&#10;css&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/annotate.css" />
+    <property name="SearchEverywhereHistoryKey" value="gitig&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/.gitignore&#10;piano&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/piano.scss&#10;Head&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;He&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;works&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/works.scss&#10;layout&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/layout.scss&#10;base&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/base.scss&#10;pia&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/piano.html&#10;Conte&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/contents.scss&#10;Header&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;conte&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/contents.scss&#10;annota&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/annotate.css&#10;anno&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/annotate.html&#10;index&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/index.html&#10;header&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/header.scss&#10;blo&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/blog.scss&#10;ba&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/base.scss&#10;ann&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/annotate.html&#10;wor&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/works.scss&#10;css&#9;FILE&#9;file:///Users/kidokoro/mywork/portfolio/css/annotate.css" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -298,19 +357,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/fonts" />
       <recent name="$PROJECT_DIR$/video" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,11 +432,13 @@
       <workItem from="1557320897966" duration="3355000" />
       <workItem from="1557395703978" duration="10319000" />
       <workItem from="1557463874416" duration="34536000" />
+      <workItem from="1557717248439" duration="3452000" />
+      <workItem from="1557733955398" duration="3233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220914000" />
+    <option name="totallyTimeSpent" value="236622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -389,12 +450,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32980132" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32980132" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32980132" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32980132" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23922414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23922414" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -405,6 +465,7 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,17 +477,17 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="GfmBrowser" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -447,133 +508,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/bgc-eyecatch.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cafe.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cafe-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/contain.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/Andante-logo2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/annotating-bar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/clear.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/code_docs.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cursol.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/group1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/gameover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/fox.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/feature01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/hero2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/hero3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/hero-sp.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ihm-congratulations.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/loading.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo-title.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/mainvisual_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/map.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/map.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/metal.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/metal2.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/p2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/voice.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/uni2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/uni1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/uni3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/vessel.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/teacher01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/teacher1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/sblog-prf004.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/r2.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/r1.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/metal2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/r1.gif" />
     <entry file="file://$PROJECT_DIR$/images/pat.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -598,36 +533,217 @@
     <entry file="file://$PROJECT_DIR$/images/skill5.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/Andante-logo2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/feature1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/metal2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2752">
+          <caret line="172" column="30" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/piano.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/rain3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blog.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/contents.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/header.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/hotaru.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/piano.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="361" column="25" selection-start-line="361" selection-start-column="25" selection-end-line="361" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/pattern1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/piano.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/works.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/piano.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        <state relative-caret-position="16">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#article#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#article#0;n#li#2;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#article#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#11048#12351#0" expanded="true" />
-            <element signature="e#11087#11970#0" expanded="true" />
-            <element signature="e#9411#9726#0" expanded="true" />
-            <element signature="e#11492#11958#0" expanded="true" />
-            <element signature="e#11047#11350#0" expanded="true" />
-            <element signature="e#12738#14307#0" expanded="true" />
-            <element signature="e#12834#14299#0" expanded="true" />
-            <element signature="e#12995#14286#0" expanded="true" />
-            <element signature="e#13295#14252#0" expanded="true" />
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1557641336748" expanded="true" signature="11378:11600" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/works.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-854" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/hotaru.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/contents.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="e#619#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/hotaru.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5558">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/contents.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="1584">
+          <caret line="99" column="10" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/works.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>

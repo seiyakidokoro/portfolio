@@ -1,0 +1,40 @@
+@import url('./font-awesome/css/fontawesome-all.css');
+
+@font-face {
+  font-family: 'Didot_Italic';
+  src: url('../fonts/Didot_Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url("../fonts/Caveat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Pr6n-r';
+  src: url("../fonts/pr6n-r.otf") format("truetype"); }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  font-size: 1.6rem;
+  color: #2b2a28;
+  background-color: #F2F2F2;
+  line-height: 1.5;
+  //background-color: #d4d4d4;
+  //background-image: url('../images/bg_ivory_pattern1.png');
+}
+
+img {
+  max-width: 100%;
+}
+
+.particles-js-canvas-el {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}

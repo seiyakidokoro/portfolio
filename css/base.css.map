@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAQ,qDAA6C;AAErD,UAGC;EAFC,WAAW,EAAE,cAAc;EAC3B,GAAG,EAAE,mDAAmD;AAG1D,UAGC;EAFC,WAAW,EAAE,QAAQ;EACrB,GAAG,EAAE,qDAAqD;AAG5D,UAEuD;EADrD,WAAW,EAAE,QAAQ;EACrB,GAAG,EAAE,6CAA6C;AAEpD,IAAK;EACH,SAAS,EAAE,KAAK;;AAGlB,IAAK;EACH,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,OAAO;EACd,gBAAgB,EAAE,OAAO;EACzB,WAAW,EAAE,GAAG;;AAKlB,GAAI;EACF,SAAS,EAAE,IAAI;;AAGjB,uBAAwB;EACtB,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,EAAE",
-"sources": ["base.scss"],
-"names": [],
-"file": "base.css"
-}
+{"version":3,"sources":["base.scss"],"names":[],"mappings":"AAAA,qDAAY;AAEZ;EACE,2BAA2B;EAC3B,wDAAwD,EAAA;;AAG1D;EACE,qBAAqB;EACrB,0DAA0D,EAAA;;AAG5D;EACE,qBAAqB;EACrB,kDAAkD,EAAA;;AAEpD;EACE,gBAAgB,EAAA;;AAGlB;EACE,WAAW;EACX,iBAAiB;EACjB,cAAc;EACd,yBAAyB;EACzB,gBAAgB,EAAA;;AAKlB;EACE,eAAe,EAAA;;AAGjB;EACE,eAAe;EACf,MAAM;EACN,OAAO;EACP,WAAW,EAAA","file":"base.css","sourcesContent":["@import url('./font-awesome/css/fontawesome-all.css');\n\n@font-face {\n  font-family: 'Didot_Italic';\n  src: url('../fonts/Didot_Italic.ttf') format('truetype');\n}\n\n@font-face {\n  font-family: 'Caveat';\n  src: url(\"../fonts/Caveat-Regular.ttf\") format(\"truetype\");\n}\n\n@font-face {\n  font-family: 'Pr6n-r';\n  src: url(\"../fonts/pr6n-r.otf\") format(\"truetype\"); }\n\nhtml {\n  font-size: 62.5%;\n}\n\nbody {\n  width: 100%;\n  font-size: 1.6rem;\n  color: #2b2a28;\n  background-color: #F2F2F2;\n  line-height: 1.5;\n  //background-color: #d4d4d4;\n  //background-image: url('../images/bg_ivory_pattern1.png');\n}\n\nimg {\n  max-width: 100%;\n}\n\n.particles-js-canvas-el {\n  position: fixed;\n  top: 0;\n  left: 0;\n  z-index: -2;\n}"]}

@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAEA,QAAS;EACP,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;ECWd,yBAA0B;IDd5B,QAAS;MAKL,KAAK,EAAE,GAAG;;AAId,OAAQ;EACN,aAAa,EAAE,IAAI",
-"sources": ["layout.scss","mixins.scss"],
-"names": [],
-"file": "layout.css"
-}
+{"version":3,"sources":["layout.scss","mixins.scss"],"names":[],"mappings":"AAEA;EACE,eAAe;EACf,UAAU;EACV,cAAc,EAAA;ECWd;IDdF;MAKI,UAAU,EAAA,EAEb;;AAED;EACE,mBAAmB,EAAA","file":"layout.css","sourcesContent":["@import \"mixins\";\n\n.l-width {\n  max-width: 100%;\n  width: 70%;\n  margin: 0 auto;\n  @include sp {\n    width: 80%;\n  }\n}\n\n.l-mb20 {\n  margin-bottom: 2rem;\n}\n","$pc: 1024px; // PC\n$tab: 680px; // タブレット\n$sp: 780px;  // スマホ\n//$sp: 1780px;  // スマホ\n\n@mixin pc {\n  @media (max-width: ($pc)) {\n    @content;\n  }\n}\n@mixin tab {\n  @media (max-width: ($tab)) {\n    @content;\n  }\n}\n@mixin sp {\n  @media (max-width: ($sp)) {\n    @content;\n  }\n}"]}
