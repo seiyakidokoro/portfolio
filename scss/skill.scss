@@ -14,14 +14,14 @@ Skill
       text-align: center;
     }
   }
-  &__nubmer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  &__img {
+    @include sp {
+      text-align: center;
+      margin: 0 auto;
+      transform: translateX(-10%);
+    }
   }
-  &__detail {
+  &__info {
     margin-left: 2rem;
     border-radius: 1rem;
     padding: 2rem;
@@ -39,30 +39,7 @@ Skill
   &__body {
 
   }
-  &__img {
-    @include sp {
-      text-align: center;
-      margin: 0 auto;
-      transform: translateX(-10%);
-    }
+  &__score{
+    font-size: 2.4rem
   }
 }
-
-.Skill__number {
-  position: absolute;
-  top: 12%;
-  left: 45%;
-  font-size: 8.8rem;
-  color: #86b7f2;
-  font-family: Pr6n-r;
-}
-
-.skill-img {
-  background-image: url(../images/no-number.png);
-  background-size: cover;
-  height: 16rem;
-  width: 19rem;
-  position: relative;
-
-}
-
