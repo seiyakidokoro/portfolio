@@ -97,7 +97,7 @@
                     </div>
                     <div class="hoge">
                         <a href="https://seiyakidokoro.github.io/portfolio/piano" target="_blank">
-                            <div class="Works__img-wrapper">
+                            <div class="js-rotate-img">
                                 <div class="Works__img Works__img--andante"></div>
                             </div>
                         </a>
@@ -128,7 +128,7 @@
                     <div class="hoge">
                         <a style="width: 100%" href="https://seiyakidokoro.github.io/portfolio/annotate"
                            target="_blank">
-                            <div class="Works__img-wrapper">
+                            <div class="js-rotate-img">
                                 <div class="Works__img Works__img--annotate"></div>
                             </div>
                         </a>
@@ -165,7 +165,7 @@
                     <div class="hoge">
                         <a style="width: 100%" href="http://coderdocs.net/" target="_blank">
 
-                            <div class="Works__img-wrapper">
+                            <div class="js-rotate-img">
                                 <div class="Works__img Works__img--coderdocs"
                                      style="background-image: url('./images/code_docs.png')"></div>
                             </div>
@@ -296,8 +296,8 @@
                 var scroll = $(window).scrollTop();
                 var windowHeight = $(window).height();
                 if (scroll > targetElement - windowHeight + 150) {
-                    $(this).find('.Works__img-wrapper').addClass('is-active');
-                    $(this).find('.Works__img-wrapper').css('transform', 'rotateX(30deg) rotateY(-20deg) rotateZ(5deg)');
+                    $(this).find('.js-rotate-img').addClass('is-active');
+                    $(this).find('.js-rotate-img').css('transform', 'rotateX(30deg) rotateY(-20deg) rotateZ(5deg)');
                 }
             });
         });

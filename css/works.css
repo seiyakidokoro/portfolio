@@ -1,6 +1,8 @@
-.Works__heading {
-  font-size: 6.4rem;
-  font-family: 'Cutive', serif; }
+.js-rotate-img {
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s; }
 
 .Works__body {
   width: 50%; }
@@ -18,12 +20,6 @@
       margin-top: -2rem;
       margin-left: -2rem;
       margin-bottom: 4rem; } }
-
-.Works__img-wrapper {
-  -webkit-transition: -webkit-transform .5s;
-  transition: -webkit-transform .5s;
-  transition: transform .5s;
-  transition: transform .5s, -webkit-transform .5s; }
 
 .Works__img {
   z-index: 1;

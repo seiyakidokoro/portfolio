@@ -1,5 +1,8 @@
 @import "mixins";
 
+.js-rotate-img{
+  transition: transform .5s
+}
 .Works {
   &__body {
     width: 50%;
@@ -17,9 +20,7 @@
       margin-bottom: 4rem;
     }
   }
-  &__img-wrapper {
-    transition: transform .5s
-  }
+
   &__img {
     z-index: 1;
     width: 100%;
