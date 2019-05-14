@@ -63,7 +63,7 @@
         <h2 class="Contents__head fadein left">Works</h2>
         <ul>
             <li>
-                <article class="Works__content rotate">
+                <article class="Works__content js-rotate">
                     <div class="Works__body">
                         <div class="fadein left">
                             <p class="Works__lead">ANDANTE(アンダンテ)</p>
@@ -105,7 +105,7 @@
                 </article>
             </li>
             <li>
-                <article class="Works__content Works__content2 rotate reverse">
+                <article class="Works__content Works__content2 js-rotate reverse">
                     <div class="Works__body">
                         <div class="fadein left">
                             <p class="Works__lead">イライラ棒風CSSミニゲーム</p>
@@ -136,7 +136,7 @@
                 </article>
             </li>
             <li>
-                <article class="Works__content rotate">
+                <article class="Works__content js-rotate">
                     <div class="Works__body">
                         <div class="fadein left">
                             <p class="Works__lead">Coder Docs</p>
@@ -273,11 +273,11 @@
 </div>
 
 <!--Loading-->
-<div class="Loading sp-only">
-    <div class="Loading__bar"></div>
-    <div class="Loading__up" style="height: 50%;"></div>
-    <div class="Loading__down" style="height: 50%;"></div>
-</div>
+<!--<div class="Loading sp-only">-->
+    <!--<div class="Loading__bar"></div>-->
+    <!--<div class="Loading__up" style="height: 50%;"></div>-->
+    <!--<div class="Loading__down" style="height: 50%;"></div>-->
+<!--</div>-->
 
 <script>
     $(function () {
@@ -291,7 +291,7 @@
                 }
             });
 
-            $('.rotate').each(function () {
+            $('.js-rotate').each(function () {
                 var targetElement = $(this).offset().top;
                 var scroll = $(window).scrollTop();
                 var windowHeight = $(window).height();
