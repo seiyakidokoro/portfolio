@@ -1,0 +1,60 @@
+/*------------------------------------*\
+Skill
+\------------------------------------*/
+.Skill {
+  margin-bottom: 8rem; }
+  .Skill__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 4.8rem;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    @media (max-width: 780px) {
+      .Skill__wrapper {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        text-align: center; } }
+  .Skill__nubmer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .Skill__detail {
+    margin-left: 2rem;
+    border-radius: 1rem;
+    padding: 2rem; }
+    @media (max-width: 780px) {
+      .Skill__detail {
+        margin-left: 0;
+        padding: 2rem 0; } }
+  .Skill__head {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #86b7f2; }
+  @media (max-width: 780px) {
+    .Skill__img {
+      text-align: center;
+      margin: 0 auto;
+      -webkit-transform: translateX(-10%);
+      transform: translateX(-10%); } }
+
+.Skill__number {
+  position: absolute;
+  top: 12%;
+  left: 45%;
+  font-size: 8.8rem;
+  color: #86b7f2;
+  font-family: Pr6n-r; }
+
+.skill-img {
+  background-image: url(../images/no-number.png);
+  background-size: cover;
+  height: 16rem;
+  width: 19rem;
+  position: relative; }
+
+/*# sourceMappingURL=skill.css.map */
