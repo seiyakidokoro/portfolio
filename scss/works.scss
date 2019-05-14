@@ -84,29 +84,26 @@
       background-image: linear-gradient(to right, #3d484e 0%, #163043 100%);
     }
   }
-}
-
-.reverse {
-  flex-direction: row-reverse;
-  @include sp {
-    flex-direction: row;
+  &__reverse {
+    flex-direction: row-reverse;
+    @include sp {
+      flex-direction: row;
+    }
+  }
+  &__reverse .Works__img-wrapper{
+    transform: translateX(-4rem);
+    @include sp {
+      transform: translateX(0);
+    }
+  }
+  &__reverse .Works__body {
+    transform: translateX(2rem);
+    @include sp {
+      transform: translateX(0);
+    }
   }
 }
 
-.reverse .Works__img-wrapper {
-  transform: translateX(-4rem);
-  @include sp {
-    transform: translateX(0);
-  }
-}
-
-.reverse .Works__body {
-  transform: translateX(2rem);
-  @include sp {
-    transform: translateX(0);
-  }
-}
-
-.js-rotate-img{
+.js-rotate-img {
   transition: transform .5s
 }

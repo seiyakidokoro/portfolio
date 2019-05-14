@@ -12,7 +12,8 @@
 
 @font-face {
   font-family: 'Pr6n-r';
-  src: url("../fonts/pr6n-r.otf") format("truetype"); }
+  src: url("../fonts/pr6n-r.otf") format("truetype");
+}
 
 html {
   font-size: 62.5%;
@@ -24,12 +25,14 @@ body {
   color: #2b2a28;
   background-color: #F2F2F2;
   line-height: 1.5;
-  //background-color: #d4d4d4;
-  //background-image: url('../images/bg_ivory_pattern1.png');
 }
 
 img {
   max-width: 100%;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 .particles-js-canvas-el {

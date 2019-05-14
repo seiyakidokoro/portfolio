@@ -88,31 +88,31 @@
     background-image: -webkit-gradient(linear, left top, right top, from(#3d484e), to(#163043));
     background-image: linear-gradient(to right, #3d484e 0%, #163043 100%); }
 
-.reverse {
+.Works__reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse; }
   @media (max-width: 780px) {
-    .reverse {
+    .Works__reverse {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -ms-flex-direction: row;
       flex-direction: row; } }
 
-.reverse .Works__img-wrapper {
+.Works__reverse .Works__img-wrapper {
   -webkit-transform: translateX(-4rem);
   transform: translateX(-4rem); }
   @media (max-width: 780px) {
-    .reverse .Works__img-wrapper {
+    .Works__reverse .Works__img-wrapper {
       -webkit-transform: translateX(0);
       transform: translateX(0); } }
 
-.reverse .Works__body {
+.Works__reverse .Works__body {
   -webkit-transform: translateX(2rem);
   transform: translateX(2rem); }
   @media (max-width: 780px) {
-    .reverse .Works__body {
+    .Works__reverse .Works__body {
       -webkit-transform: translateX(0);
       transform: translateX(0); } }
 

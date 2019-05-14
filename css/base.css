@@ -24,6 +24,9 @@ body {
 img {
   max-width: 100%; }
 
+h4 {
+  font-weight: bold; }
+
 .particles-js-canvas-el {
   position: fixed;
   top: 0;
