@@ -1,16 +1,29 @@
 @import "mixins";
 
-.js-rotate-img{
-  transition: transform .5s
-}
 .Works {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8rem;
+    flex-wrap: wrap;
+    @include sp {
+      margin-right: 0;
+      flex-direction: column;
+      flex-flow: row wrap-reverse;
+    }
+  }
   &__body {
     width: 50%;
     @include sp {
       width: 100%;
     }
   }
-  .hoge {
+  &__lead {
+    font-weight: bold;
+    font-size: 2.4rem;
+  }
+  &__img-wrapper {
     perspective: 100rem;
     width: 50%;
     @include sp {
@@ -20,7 +33,6 @@
       margin-bottom: 4rem;
     }
   }
-
   &__img {
     z-index: 1;
     width: 100%;
@@ -72,22 +84,6 @@
       background-image: linear-gradient(to right, #3d484e 0%, #163043 100%);
     }
   }
-  &__lead {
-    font-weight: bold;
-    font-size: 2.4rem;
-  }
-  &__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 8rem;
-    flex-wrap: wrap;
-    @include sp {
-      margin-right: 0;
-      flex-direction: column;
-      flex-flow: row wrap-reverse;
-    }
-  }
 }
 
 .reverse {
@@ -97,7 +93,7 @@
   }
 }
 
-.reverse .hoge {
+.reverse .Works__img-wrapper {
   transform: translateX(-4rem);
   @include sp {
     transform: translateX(0);
@@ -109,4 +105,8 @@
   @include sp {
     transform: translateX(0);
   }
+}
+
+.js-rotate-img{
+  transition: transform .5s
 }
