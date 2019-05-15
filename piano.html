@@ -13,9 +13,9 @@
 </head>
 
 <!--Loading-->
-<div class="Loading">
-    <img class="Loading__img" src="./images/andante-logo2.png" alt="">
-</div>
+<!--<div class="Loading">-->
+    <!--<img class="Loading__img" src="./images/andante-logo2.png" alt="">-->
+<!--</div>-->
 
 <!--Header-->
 <div class="Header">
@@ -35,6 +35,7 @@
 
 <!--Content-->
 <div class="Content">
+    <!--About-->
     <section class="About l-width l-mb150">
         <h2 class="About__head fadein">
             About
@@ -67,7 +68,7 @@
             <div class="Slide">
                 <img class="Slide__img" src="images/teacher01.png" alt="">
             </div>
-            <div class="Profile__content">
+            <div class="Profile__js-info">
                 <span class="Profile__head">松浦 由季 YukiMatsuura</span>
                 <ul>
                     <li>桐朋女子高等学校 音楽科を経て桐朋学園大学 音楽学部 卒業。</li>
@@ -94,7 +95,6 @@
                 <div class="Lesson__point-wrapper">
                     <p class="Lesson__body2">
                         <img class="Lesson__img-feature" src="./images/feature01.png" alt="">
-                        <!--<img class="dev" src="images/feature1.png" alt="">-->
                         <span class="Lesson__point-head">個人に合わせた指導</span>
                         <br>
                         レッスンは個人に合わせて行います<br>
@@ -216,7 +216,7 @@
                 var windowHeight = $(window).height();
                 if (scroll > targetElement - windowHeight + 150) {
                     $('.Slide').addClass('is-active');
-                    $('.Profile__content').addClass('is-active');
+                    $('.Profile__js-info').addClass('is-active');
                 }
             });
         });

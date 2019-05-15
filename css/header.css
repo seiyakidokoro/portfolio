@@ -72,14 +72,14 @@
   .Header__title {
     position: absolute;
     top: 50vh;
-    left: 30rem;
+    left: 21vw;
     -webkit-transform: rotate(-4deg);
     transform: rotate(-4deg);
     -webkit-transform-origin: left;
     transform-origin: left;
     font-weight: bold; }
     .Header__title span {
-      font-size: 5vw;
+      font-size: 8rem;
       font-family: 'Fredericka the Great', cursive; }
   .Header__arrow {
     opacity: 0;

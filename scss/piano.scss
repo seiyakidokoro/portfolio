@@ -103,6 +103,15 @@ Layout
 /*------------------------------------*\
 Utility
 \------------------------------------*/
+.sp-only {
+  display: none;
+  @include sp {
+    display: block;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
 .u-double-line::before {
   content: '';
   width: 100%;
@@ -128,6 +137,32 @@ Utility
 .l-mb150 {
   margin-bottom: 15rem;
 }
+
+/*------------------------------------*\
+Loading
+\------------------------------------*/
+.Loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background: radial-gradient(darkgray, #000);
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 21.4rem;
+    height: 18.6rem;
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+}
+
 /*------------------------------------*\
 Header
 \------------------------------------*/
@@ -137,6 +172,15 @@ Header
   width: 100%;
   display: block;
   overflow: hidden;
+  &__dot {
+    background-image: url(../images/pat.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
   &__wrapper {
     position: absolute;
     top: 50%;
@@ -148,20 +192,6 @@ Header
     @include sp {
       width: 80%;
     }
-  }
-  &__title-logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    opacity: 0;
-    @include sp {
-      width: 70%;
-    }
-  }
-  &__title-logo.is-active {
-    animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards;
   }
   &__line {
     content: '';
@@ -192,14 +222,38 @@ Header
     width: 2px;
     animation: line-v 1s linear 1s 1 forwards;
   }
-  &__dot {
-    background-image: url(../images/pat.png);
-    background-repeat: repeat;
+  &__title-logo {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0;
+    @include sp {
+      width: 70%;
+    }
+  }
+  &__title-logo.is-active {
+    animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards;
+  }
+}
+
+/*------------------------------------*\
+Content
+\------------------------------------*/
+.Content {
+  padding-top: 4rem;
+  h2 {
+    font-family: 'Playfair Display';
+    font-size: 3.6rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    & > span {
+      margin-top: 1rem;
+      display: block;
+      font-size: 1.4rem;
+      text-align: center;
+    }
   }
 }
 
@@ -236,46 +290,11 @@ About
 }
 
 /*------------------------------------*\
-Content
-\------------------------------------*/
-.Content {
-  padding-top: 4rem;
-
-  h2 {
-    font-family: 'Playfair Display';
-    font-size: 3.6rem;
-    letter-spacing: 0.05rem;
-    text-align: center;
-    & > span {
-      margin-top: 1rem;
-      display: block;
-      font-size: 1.4rem;
-      text-align: center;
-    }
-  }
-}
-
-/*------------------------------------*\
 Profile
 \------------------------------------*/
 .Profile {
   h2 {
     padding: 7rem;
-  }
-  &__head {
-    font-weight: bold;
-    font-size: 2rem;
-    p {
-      margin-bottom: 1rem;
-    }
-    &::after {
-      content: '';
-      display: block;
-      background-color: #111;
-      width: 30px;
-      height: 2px;
-      margin-bottom: 2rem;
-    }
   }
   &__wrapper {
     display: flex;
@@ -284,15 +303,10 @@ Profile
       flex-wrap: wrap;
     }
   }
-  &__img-box {
-    @include sp {
-      width: 100%;
-    }
-  }
-  &__content {
+  &__js-info {
     padding: 2rem;
     position: relative;
-    background-color: rgba(239, 244, 245, .9);;
+    background-color: rgba(239, 244, 245, .9);
     margin-left: -4%;
     margin-top: 4%;
     width: 45%;
@@ -308,21 +322,26 @@ Profile
       margin: -14rem auto 0;
     }
   }
-  &__img {
-    width: 55%;
+  &__head {
+    font-weight: bold;
+    font-size: 2rem;
+    p {
+      margin-bottom: 1rem;
+    }
+    &::after {
+      content: '';
+      display: block;
+      background-color: #111;
+      width: 3rem;
+      height: .2rem;
+      margin-bottom: 2rem;
+    }
   }
 }
 
 /*------------------------------------*\
-Lesson
+Lesson todo
 \------------------------------------*/
-//.dev {
-//  width: 12rem;
-//  position: absolute;
-//  top: -7rem;
-//  left: 2rem;
-//}
-
 .Lesson {
   h2 {
     padding: 7rem;
@@ -487,6 +506,84 @@ Slide
   animation-fill-mode: forwards;
 }
 
+/*------------------------------------*\
+Access todo
+\------------------------------------*/
+
+/*------------------------------------*\
+Fee
+\------------------------------------*/
+.Fee {
+  h2 {
+    padding: 7rem;
+  }
+  &__head {
+    font-weight: bold;
+    font-size: 2rem;
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+  &__detail {
+    background-color: #eff4f5;
+    border-radius: 1.5rem;
+    padding: 2.7rem;
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+}
+
+/*------------------------------------*\
+Contact todo
+\------------------------------------*/
+.Contact {
+  h2 {
+    padding: 7rem;
+  }
+  &__head {
+    font-weight: bold;
+    font-size: 2rem;
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+  input, textarea {
+    width: 100%;
+    border: .1rem solid #ccc;
+    border-radius: .3rem;
+    padding: .6rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.Contact {
+  &__body {
+    background-color: #FFFFFF;
+    filter: drop-shadow(-1.1rem -.2rem 2.6rem rgba(0, 0, 0, 0.14));
+    padding: 5rem;
+  }
+  &__required {
+    color: red;
+    font-size: 1.3rem;
+  }
+  &__submit {
+    width: 18rem;
+    cursor: pointer;
+    background-color: rgb(238, 83, 79);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.9rem;
+    border-radius: 0.6rem;
+    padding: 1.14rem;
+    border-bottom: .4rem solid rgb(80, 10, 7);
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/*------------------------------------*\
+Keyframes
+\------------------------------------*/
 @keyframes logo-fadein {
   0% {
     opacity: 0;
@@ -496,6 +593,7 @@ Slide
   }
 }
 
+//height
 @keyframes line-h {
   0% {
     width: 0;
@@ -505,6 +603,7 @@ Slide
   }
 }
 
+//vertical
 @keyframes line-v {
   0% {
     height: 0;
@@ -540,109 +639,6 @@ Slide
   100% {
     transform: translateX(0px);
     opacity: 1;
-  }
-}
-
-
-.sp-only {
-  display: none;
-  @include sp {
-    display: block;
-    height: 100vh;
-    width: 100%;
-  }
-}
-
-.Loading {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-  background: radial-gradient(darkgray, #000);
-  &__img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 21.4rem;
-    height: 18.6rem;
-    transform: translateY(-10%);
-    opacity: 0;
-  }
-}
-
-/*------------------------------------*\
-Fee
-\------------------------------------*/
-.Fee {
-  h2 {
-    padding: 7rem;
-  }
-  &__head {
-    font-weight: bold;
-    font-size: 2rem;
-    p {
-      margin-bottom: 1rem;
-    }
-  }
-  &__detail {
-    background-color: #eff4f5;
-    border-radius: 1.5rem;
-    padding: 2.7rem;
-    text-align: center;
-    margin-bottom: 6rem;
-  }
-}
-
-/*------------------------------------*\
-Contact
-\------------------------------------*/
-.Contact {
-  h2 {
-    padding: 7rem;
-  }
-  &__head {
-    font-weight: bold;
-    font-size: 2rem;
-    p {
-      margin-bottom: 1rem;
-    }
-  }
-  input, textarea {
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: .6rem;
-    margin-bottom: 1rem;
-  }
-}
-
-.Contact {
-  &__body {
-    background-color: #FFFFFF;
-    filter: drop-shadow(-11px -2px 26px rgba(0, 0, 0, 0.14));
-    padding: 3em;
-  }
-  &__required {
-    color: red;
-    font-size: 1.3rem;
-  }
-  &__submit {
-    width: 18rem;
-    cursor: pointer;
-    background-color: rgb(238, 83, 79);
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-    font-size: 1.9rem;
-    border-radius: 0.6rem;
-    padding: 1.14rem;
-    border-bottom: .4rem solid rgb(80, 10, 7);
-    margin: 0 auto;
-    display: block;
   }
 }
 

@@ -1,7 +1,7 @@
 @import "mixins";
 
 .l-width {
-  max-width: 100%;
+  max-width: 144rem;
   width: 70%;
   margin: 0 auto;
   @include sp {

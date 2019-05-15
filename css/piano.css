@@ -98,6 +98,14 @@ Layout
 /*------------------------------------*\
 Utility
 \------------------------------------*/
+.sp-only {
+  display: none; }
+  @media (max-width: 780px) {
+    .sp-only {
+      display: block;
+      height: 100vh;
+      width: 100%; } }
+
 .u-double-line::before {
   content: '';
   width: 100%;
@@ -120,6 +128,30 @@ Utility
   margin-bottom: 15rem; }
 
 /*------------------------------------*\
+Loading
+\------------------------------------*/
+.Loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background: radial-gradient(darkgray, #000); }
+  .Loading__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 21.4rem;
+    height: 18.6rem;
+    -webkit-transform: translateY(-10%);
+    transform: translateY(-10%);
+    opacity: 0; }
+
+/*------------------------------------*\
 Header
 \------------------------------------*/
 .Header {
@@ -128,6 +160,14 @@ Header
   width: 100%;
   display: block;
   overflow: hidden; }
+  .Header__dot {
+    background-image: url(../images/pat.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
   .Header__wrapper {
     position: absolute;
     top: 50%;
@@ -140,20 +180,6 @@ Header
     @media (max-width: 780px) {
       .Header__wrapper {
         width: 80%; } }
-  .Header__title-logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    color: #fff;
-    opacity: 0; }
-    @media (max-width: 780px) {
-      .Header__title-logo {
-        width: 70%; } }
-  .Header__title-logo.is-active {
-    -webkit-animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards;
-    animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards; }
   .Header__line {
     content: '';
     background-color: #7d92a2;
@@ -182,14 +208,36 @@ Header
     width: 2px;
     -webkit-animation: line-v 1s linear 1s 1 forwards;
     animation: line-v 1s linear 1s 1 forwards; }
-  .Header__dot {
-    background-image: url(../images/pat.png);
-    background-repeat: repeat;
+  .Header__title-logo {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; }
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0; }
+    @media (max-width: 780px) {
+      .Header__title-logo {
+        width: 70%; } }
+  .Header__title-logo.is-active {
+    -webkit-animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards;
+    animation: logo-fadein 1.5s cubic-bezier(0.42, 0, 0, 1.1) 2s 1 forwards; }
+
+/*------------------------------------*\
+Content
+\------------------------------------*/
+.Content {
+  padding-top: 4rem; }
+  .Content h2 {
+    font-family: 'Playfair Display';
+    font-size: 3.6rem;
+    letter-spacing: 0.05rem;
+    text-align: center; }
+    .Content h2 > span {
+      margin-top: 1rem;
+      display: block;
+      font-size: 1.4rem;
+      text-align: center; }
 
 /*------------------------------------*\
 About
@@ -218,39 +266,10 @@ About
     font-size: 1.7rem; }
 
 /*------------------------------------*\
-Content
-\------------------------------------*/
-.Content {
-  padding-top: 4rem; }
-  .Content h2 {
-    font-family: 'Playfair Display';
-    font-size: 3.6rem;
-    letter-spacing: 0.05rem;
-    text-align: center; }
-    .Content h2 > span {
-      margin-top: 1rem;
-      display: block;
-      font-size: 1.4rem;
-      text-align: center; }
-
-/*------------------------------------*\
 Profile
 \------------------------------------*/
 .Profile h2 {
   padding: 7rem; }
-
-.Profile__head {
-  font-weight: bold;
-  font-size: 2rem; }
-  .Profile__head p {
-    margin-bottom: 1rem; }
-  .Profile__head::after {
-    content: '';
-    display: block;
-    background-color: #111;
-    width: 30px;
-    height: 2px;
-    margin-bottom: 2rem; }
 
 .Profile__wrapper {
   display: -webkit-box;
@@ -264,11 +283,7 @@ Profile
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; } }
 
-@media (max-width: 780px) {
-  .Profile__img-box {
-    width: 100%; } }
-
-.Profile__content {
+.Profile__js-info {
   padding: 2rem;
   position: relative;
   background-color: rgba(239, 244, 245, 0.9);
@@ -279,19 +294,29 @@ Profile
   font-size: 1.4rem;
   z-index: 3;
   opacity: 0; }
-  .Profile__content.is-active {
+  .Profile__js-info.is-active {
     -webkit-animation: Slide-in2 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s 1 forwards;
     animation: Slide-in2 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0s 1 forwards; }
   @media (max-width: 780px) {
-    .Profile__content {
+    .Profile__js-info {
       width: 90%;
       margin: -14rem auto 0; } }
 
-.Profile__img {
-  width: 55%; }
+.Profile__head {
+  font-weight: bold;
+  font-size: 2rem; }
+  .Profile__head p {
+    margin-bottom: 1rem; }
+  .Profile__head::after {
+    content: '';
+    display: block;
+    background-color: #111;
+    width: 3rem;
+    height: .2rem;
+    margin-bottom: 2rem; }
 
 /*------------------------------------*\
-Lesson
+Lesson todo
 \------------------------------------*/
 .Lesson h2 {
   padding: 7rem; }
@@ -468,12 +493,78 @@ Slide
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
 
+/*------------------------------------*\
+Access todo
+\------------------------------------*/
+/*------------------------------------*\
+Fee
+\------------------------------------*/
+.Fee h2 {
+  padding: 7rem; }
+
+.Fee__head {
+  font-weight: bold;
+  font-size: 2rem; }
+  .Fee__head p {
+    margin-bottom: 1rem; }
+
+.Fee__detail {
+  background-color: #eff4f5;
+  border-radius: 1.5rem;
+  padding: 2.7rem;
+  text-align: center;
+  margin-bottom: 6rem; }
+
+/*------------------------------------*\
+Contact todo
+\------------------------------------*/
+.Contact h2 {
+  padding: 7rem; }
+
+.Contact__head {
+  font-weight: bold;
+  font-size: 2rem; }
+  .Contact__head p {
+    margin-bottom: 1rem; }
+
+.Contact input, .Contact textarea {
+  width: 100%;
+  border: .1rem solid #ccc;
+  border-radius: .3rem;
+  padding: .6rem;
+  margin-bottom: 1rem; }
+
+.Contact__body {
+  background-color: #FFFFFF;
+  -webkit-filter: drop-shadow(-1.1rem -0.2rem 2.6rem rgba(0, 0, 0, 0.14));
+  filter: drop-shadow(-1.1rem -0.2rem 2.6rem rgba(0, 0, 0, 0.14));
+  padding: 5rem; }
+
+.Contact__required {
+  color: red;
+  font-size: 1.3rem; }
+
+.Contact__submit {
+  width: 18rem;
+  cursor: pointer;
+  background-color: #ee534f;
+  color: white;
+  font-weight: 500;
+  font-size: 1.9rem;
+  border-radius: 0.6rem;
+  padding: 1.14rem;
+  border-bottom: 0.4rem solid #500a07;
+  margin: 0 auto;
+  display: block; }
+
+/*------------------------------------*\
+Keyframes
+\------------------------------------*/
 @-webkit-keyframes logo-fadein {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
 @keyframes logo-fadein {
   0% {
     opacity: 0; }
@@ -547,95 +638,5 @@ Slide
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
     opacity: 1; } }
-
-.sp-only {
-  display: none; }
-  @media (max-width: 780px) {
-    .sp-only {
-      display: block;
-      height: 100vh;
-      width: 100%; } }
-
-.Loading {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-  background: radial-gradient(darkgray, #000); }
-  .Loading__img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 21.4rem;
-    height: 18.6rem;
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
-    opacity: 0; }
-
-/*------------------------------------*\
-Fee
-\------------------------------------*/
-.Fee h2 {
-  padding: 7rem; }
-
-.Fee__head {
-  font-weight: bold;
-  font-size: 2rem; }
-  .Fee__head p {
-    margin-bottom: 1rem; }
-
-.Fee__detail {
-  background-color: #eff4f5;
-  border-radius: 1.5rem;
-  padding: 2.7rem;
-  text-align: center;
-  margin-bottom: 6rem; }
-
-/*------------------------------------*\
-Contact
-\------------------------------------*/
-.Contact h2 {
-  padding: 7rem; }
-
-.Contact__head {
-  font-weight: bold;
-  font-size: 2rem; }
-  .Contact__head p {
-    margin-bottom: 1rem; }
-
-.Contact input, .Contact textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  padding: .6rem;
-  margin-bottom: 1rem; }
-
-.Contact__body {
-  background-color: #FFFFFF;
-  -webkit-filter: drop-shadow(-11px -2px 26px rgba(0, 0, 0, 0.14));
-  filter: drop-shadow(-11px -2px 26px rgba(0, 0, 0, 0.14));
-  padding: 3em; }
-
-.Contact__required {
-  color: red;
-  font-size: 1.3rem; }
-
-.Contact__submit {
-  width: 18rem;
-  cursor: pointer;
-  background-color: #ee534f;
-  color: white;
-  font-weight: 500;
-  font-size: 1.9rem;
-  border-radius: 0.6rem;
-  padding: 1.14rem;
-  border-bottom: 0.4rem solid #500a07;
-  margin: 0 auto;
-  display: block; }
 
 /*# sourceMappingURL=piano.css.map */
