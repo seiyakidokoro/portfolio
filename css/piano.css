@@ -360,7 +360,7 @@ Lesson
   margin-top: 2rem;
   padding: 4.8rem 2rem;
   height: 100%;
-  border: 1px solid #333;
+  border: .1rem solid #333;
   position: relative;
   background-image: url(../images/bg_ivory_pattern.png);
   background-repeat: repeat;
@@ -373,7 +373,7 @@ Lesson
   position: absolute;
   top: 6%;
   left: 6%;
-  border: 1px solid #000;
+  border: .1rem solid #000;
   z-index: 1;
   background-color: #fff9f3; }
 
@@ -426,10 +426,6 @@ Slide
     .Slide {
       width: 100%; } }
 
-.Slide::after.is-active {
-  -webkit-transform: translateX(0px);
-  transform: translateX(0px); }
-
 .Slide::after {
   z-index: 1;
   content: '';
@@ -440,13 +436,9 @@ Slide
   height: 100%;
   background-color: #f2f2f2; }
 
-.Slide__img {
-  width: 100%;
-  -webkit-transform: translateX(-20px);
-  transform: translateX(-20px);
-  opacity: 0;
-  z-index: 2;
-  position: relative; }
+.Slide::after.is-active {
+  -webkit-transform: translateX(0);
+  transform: translateX(0); }
 
 .Slide.is-active::after {
   -webkit-animation: Slide-in 1.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0s 1 forwards;
@@ -464,20 +456,19 @@ Slide
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
 
-/*------------------------------------*\
-Access todo
-\------------------------------------*/
+.Slide__img {
+  width: 100%;
+  -webkit-transform: translateX(-2rem);
+  transform: translateX(-2rem);
+  opacity: 0;
+  z-index: 2;
+  position: relative; }
+
 /*------------------------------------*\
 Fee
 \------------------------------------*/
 .Fee h2 {
   padding: 7rem; }
-
-.Fee__head {
-  font-weight: bold;
-  font-size: 2rem; }
-  .Fee__head p {
-    margin-bottom: 1rem; }
 
 .Fee__detail {
   background-color: #eff4f5;
@@ -487,16 +478,16 @@ Fee
   margin-bottom: 6rem; }
 
 /*------------------------------------*\
-Contact todo
+Access
+\------------------------------------*/
+.Access h2 {
+  padding: 7rem; }
+
+/*------------------------------------*\
+Contact
 \------------------------------------*/
 .Contact h2 {
   padding: 7rem; }
-
-.Contact__head {
-  font-weight: bold;
-  font-size: 2rem; }
-  .Contact__head p {
-    margin-bottom: 1rem; }
 
 .Contact input, .Contact textarea {
   width: 100%;
@@ -596,8 +587,8 @@ Keyframes
     transform: translateX(-20%);
     opacity: 0; }
   100% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
     opacity: 1; } }
 
 @keyframes i-Slide-in {
@@ -606,8 +597,8 @@ Keyframes
     transform: translateX(-20%);
     opacity: 0; }
   100% {
-    -webkit-transform: translateX(0px);
-    transform: translateX(0px);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
     opacity: 1; } }
 
 /*# sourceMappingURL=piano.css.map */

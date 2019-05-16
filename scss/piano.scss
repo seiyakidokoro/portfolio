@@ -381,7 +381,7 @@ Lesson
     margin-top: 2rem;
     padding: 4.8rem 2rem;
     height: 100%;
-    border: 1px solid #333;
+    border: .1rem solid #333;
     position: relative;
     background-image: url(../images/bg_ivory_pattern.png);
     background-repeat: repeat;
@@ -394,7 +394,7 @@ Lesson
     position: absolute;
     top: 6%;
     left: 6%;
-    border: 1px solid #000;
+    border: .1rem solid #000;
     z-index: 1;
     background-color: #fff9f3;
   }
@@ -446,10 +446,6 @@ Slide
   }
 }
 
-.Slide::after.is-active {
-  transform: translateX(0px);
-}
-
 .Slide::after {
   z-index: 1;
   content: '';
@@ -461,12 +457,8 @@ Slide
   background-color: #f2f2f2;
 }
 
-.Slide__img {
-  width: 100%;
-  transform: translateX(-20px);
-  opacity: 0;
-  z-index: 2;
-  position: relative;
+.Slide::after.is-active {
+  transform: translateX(0);
 }
 
 .Slide.is-active::after {
@@ -481,9 +473,13 @@ Slide
   animation-fill-mode: forwards;
 }
 
-/*------------------------------------*\
-Access todo
-\------------------------------------*/
+.Slide__img {
+  width: 100%;
+  transform: translateX(-2rem);
+  opacity: 0;
+  z-index: 2;
+  position: relative;
+}
 
 /*------------------------------------*\
 Fee
@@ -491,13 +487,6 @@ Fee
 .Fee {
   h2 {
     padding: 7rem;
-  }
-  &__head {
-    font-weight: bold;
-    font-size: 2rem;
-    p {
-      margin-bottom: 1rem;
-    }
   }
   &__detail {
     background-color: #eff4f5;
@@ -509,18 +498,20 @@ Fee
 }
 
 /*------------------------------------*\
-Contact todo
+Access
+\------------------------------------*/
+.Access {
+  h2 {
+    padding: 7rem;
+  }
+}
+
+/*------------------------------------*\
+Contact
 \------------------------------------*/
 .Contact {
   h2 {
     padding: 7rem;
-  }
-  &__head {
-    font-weight: bold;
-    font-size: 2rem;
-    p {
-      margin-bottom: 1rem;
-    }
   }
   input, textarea {
     width: 100%;
@@ -529,9 +520,6 @@ Contact todo
     padding: .6rem;
     margin-bottom: 1rem;
   }
-}
-
-.Contact {
   &__body {
     background-color: #FFFFFF;
     filter: drop-shadow(-1.1rem -.2rem 2.6rem rgba(0, 0, 0, 0.14));
@@ -612,7 +600,7 @@ Keyframes
     opacity: 0;
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(0);
     opacity: 1;
   }
 }
