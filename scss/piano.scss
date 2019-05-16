@@ -116,10 +116,10 @@ Utility
   content: '';
   width: 100%;
   max-width: 100%;
-  height: 3px;
+  height: .3rem;
   display: block;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: .1rem solid #000;
+  border-bottom: .1rem solid #000;
 }
 
 .l-mb40 {
@@ -200,26 +200,26 @@ Header
   }
   &__line-top.is-active {
     top: 0;
-    height: 2px;
+    height: .2rem;
     width: 0;
     animation: line-h 1s linear 0s 1 forwards;
   }
   &__line-bottom.is-active {
     bottom: 0;
     width: 0;
-    height: 2px;
+    height: .2rem;
     animation: line-h 1s linear 1s 1 forwards;
   }
   &__line-left.is-active {
     left: 0;
     height: 100%;
-    width: 2px;
+    width: .2rem;
     animation: line-v 1s linear 0s 1 forwards;
   }
   &__line-right.is-active {
     right: 0;
     height: 0;
-    width: 2px;
+    width: .2rem;
     animation: line-v 1s linear 1s 1 forwards;
   }
   &__title-logo {
@@ -272,8 +272,8 @@ About
       content: '';
       display: block;
       background-color: #2F2625;
-      width: 1px;
-      height: 40px;
+      width: .1rem;
+      height: 4rem;
       margin: 1rem auto 4rem;
     }
   }
@@ -340,7 +340,7 @@ Profile
 }
 
 /*------------------------------------*\
-Lesson todo
+Lesson
 \------------------------------------*/
 .Lesson {
   h2 {
@@ -363,7 +363,8 @@ Lesson todo
       width: 100%;
     }
   }
-  &__body {
+  &__info-wrapper {
+    position: relative;
     width: 50%;
     margin-left: 5rem;
     @include sp {
@@ -372,41 +373,21 @@ Lesson todo
       margin-left: 3%;
     }
   }
-  &__img-feature{
-    width: 12rem;
-    position: absolute;
-    top: -7rem;
-    left: 2rem;
-  }
-  &__reserve {
-    margin-left: 0;
-    margin-right: 4rem;
-  }
-  &__point {
-    font-family: 'Playfair Display';
-    font-size: 3rem;
-    letter-spacing: 0.05rem;
-    text-align: center;
-    display: block;
-  }
-  &__point-number {
-    font-size: 6rem;
-  }
-  &__point-wrapper {
+  &__info {
     position: relative;
   }
-  &__body2 {
+  &__box-above {
     line-height: 1.85;
     margin-top: 2rem;
     padding: 4.8rem 2rem;
     height: 100%;
     border: 1px solid #333;
     position: relative;
-    z-index: 2;
     background-image: url(../images/bg_ivory_pattern.png);
     background-repeat: repeat;
+    z-index: 2;
   }
-  &__box-border {
+  &__box-under {
     content: '';
     width: 100%;
     height: 100%;
@@ -416,6 +397,12 @@ Lesson todo
     border: 1px solid #000;
     z-index: 1;
     background-color: #fff9f3;
+  }
+  &__img-feature {
+    width: 12rem;
+    position: absolute;
+    top: -7rem;
+    left: 2rem;
   }
   &__point-head {
     color: #ffb768;
@@ -427,36 +414,24 @@ Lesson todo
       font-size: 2rem;
     }
   }
-  &__wrapper-reverse {
-    flex-direction: row-reverse;
+}
+
+/*------------------------------------*\
+Lesson-reverse
+\------------------------------------*/
+.Lesson-reverse {
+  flex-direction: row-reverse;
+  @include sp {
+    flex-direction: row;
+  }
+  &__info {
+    margin-left: 0;
+    margin-right: 8rem;
     @include sp {
-      flex-direction: row;
-    }
-    .Lesson__body {
-      margin-left: 0;
-      margin-right: 8rem;
-      @include sp {
-        margin-left: 3%;
-        margin-right: 0;
-      }
-    }
-    .Lesson__img {
-      position: relative;
-      @include sp {
-        margin-right: 0;
-        margin-left: 0;
-      }
+      margin-left: 3%;
+      margin-right: 0;
     }
   }
-}
-
-.flex {
-  display: flex;
-  align-items: flex-start;
-}
-
-.flex2 {
-  display: flex;
 }
 
 /*------------------------------------*\

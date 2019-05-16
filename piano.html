@@ -14,7 +14,7 @@
 
 <!--Loading-->
 <div class="Loading">
-    <img class="Loading__img" src="./images/andante-logo2.png" alt="">
+<img class="Loading__img" src="./images/andante-logo2.png" alt="">
 </div>
 
 <!--Header-->
@@ -92,50 +92,56 @@
         <!--Point1-->
         <div class="Lesson__wrapper">
             <img class="Lesson__img-hero" src="./images/lesson1.jpg" alt="">
-            <div class="Lesson__body fadein right">
-                <div class="Lesson__point-wrapper">
-                    <p class="Lesson__body2">
+            <div class="Lesson__info-wrapper fadein right">
+                <div class="Lesson__info">
+                    <div class="Lesson__box-above">
                         <img class="Lesson__img-feature" src="./images/feature01.png" alt="">
-                        <span class="Lesson__point-head">個人に合わせた指導</span>
+                        <h3 class="Lesson__point-head">個人に合わせた指導</h3>
                         <br>
-                        レッスンは個人に合わせて行います<br>
-                        未経験の方の指導も多く行なっているのでご安心ください。<br>
-                        現時点で楽譜が読めない方でも大丈夫です。<br>
-                    </p>
-                    <div class="Lesson__box-border"></div>
+                        <p>
+                            レッスンは個人に合わせて行います<br>
+                            未経験の方の指導も多く行なっているのでご安心ください。<br>
+                            現時点で楽譜が読めない方でも大丈夫です。<br>
+                        </p>
+                    </div>
+                    <div class="Lesson__box-under"></div>
                 </div>
             </div>
         </div>
         <!--Point2-->
-        <div class="Lesson__wrapper Lesson__wrapper-reverse">
+        <div class="Lesson__wrapper Lesson-reverse">
             <img class="Lesson__img-hero" src="./images/lesson2.jpg" alt="">
-            <div class="Lesson__body fadein left">
-                <div class="Lesson__point-wrapper">
-                    <p class="Lesson__body2">
+            <div class="Lesson__info-wrapper Lesson-reverse__info fadein left">
+                <div class="Lesson__info">
+                    <div class="Lesson__box-above">
                         <img class="Lesson__img-feature" src="./images/feature02.png" alt="">
-                        <span class="Lesson__point-head">通いやすさ</span>
+                        <h3 class="Lesson__point-head">通いやすさ</h3>
                         <br>
-                        レッスン場所は駅に近い好立地にあります。<br>
-                        また夜間帯のレッスンも行なっているため社会人の方でも通いやすいです。
-                    </p>
-                    <div class="Lesson__box-border"></div>
+                        <p>
+                            レッスン場所は駅に近い好立地にあります。<br>
+                            また夜間帯のレッスンも行なっているため社会人の方でも通いやすいです。
+                        </p>
+                    </div>
+                    <div class="Lesson__box-under"></div>
                 </div>
             </div>
         </div>
         <!--Point3-->
         <div class="Lesson__wrapper">
             <img class="Lesson__img-hero" src="./images/lesson3.jpg" alt="">
-            <div class="Lesson__body fadein right">
-                <div class="Lesson__point-wrapper">
-                    <p class="Lesson__body2">
+            <div class="Lesson__info-wrapper fadein right">
+                <div class="Lesson__info">
+                    <div class="Lesson__box-above">
                         <img class="Lesson__img-feature" src="./images/feature03.png" alt="">
-                        <span class="Lesson__point-head">好きな曲で練習できる</span>
+                        <h3 class="Lesson__point-head">好きな曲で練習できる</h3>
                         <br>
-                        ピアノの上達のコツはピアノを楽しむことです。<br>
-                        当教室のレッスンでは指定の教材はないため好きな曲で練習が可能です。<br>
-                        もちろんこちらの指定の教材で練習いただくことも可能です。
-                    </p>
-                    <div class="Lesson__box-border"></div>
+                        <p>
+                            ピアノの上達のコツはピアノを楽しむことです。<br>
+                            当教室のレッスンでは指定の教材はないため好きな曲で練習が可能です。<br>
+                            もちろんこちらの指定の教材で練習いただくことも可能です。
+                        </p>
+                    </div>
+                    <div class="Lesson__box-under"></div>
                 </div>
             </div>
         </div>
@@ -224,7 +230,7 @@
     });
     // ローディング
     $('.Loading__img').animate({'opacity': 1}, 2000, function () {
-        $('.Loading').animate({'opacity': 0,'z-index': -100,}, 1000);
+        $('.Loading').animate({'opacity': 0, 'z-index': -100,}, 1000);
         setTimeout(function () {
             $('.Header__line-top').addClass('is-active');
             $('.Header__line-right').addClass('is-active');

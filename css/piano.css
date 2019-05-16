@@ -110,10 +110,10 @@ Utility
   content: '';
   width: 100%;
   max-width: 100%;
-  height: 3px;
+  height: .3rem;
   display: block;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000; }
+  border-top: .1rem solid #000;
+  border-bottom: .1rem solid #000; }
 
 .l-mb40 {
   margin-bottom: 4rem; }
@@ -186,26 +186,26 @@ Header
     position: absolute; }
   .Header__line-top.is-active {
     top: 0;
-    height: 2px;
+    height: .2rem;
     width: 0;
     -webkit-animation: line-h 1s linear 0s 1 forwards;
     animation: line-h 1s linear 0s 1 forwards; }
   .Header__line-bottom.is-active {
     bottom: 0;
     width: 0;
-    height: 2px;
+    height: .2rem;
     -webkit-animation: line-h 1s linear 1s 1 forwards;
     animation: line-h 1s linear 1s 1 forwards; }
   .Header__line-left.is-active {
     left: 0;
     height: 100%;
-    width: 2px;
+    width: .2rem;
     -webkit-animation: line-v 1s linear 0s 1 forwards;
     animation: line-v 1s linear 0s 1 forwards; }
   .Header__line-right.is-active {
     right: 0;
     height: 0;
-    width: 2px;
+    width: .2rem;
     -webkit-animation: line-v 1s linear 1s 1 forwards;
     animation: line-v 1s linear 1s 1 forwards; }
   .Header__title-logo {
@@ -254,8 +254,8 @@ About
       content: '';
       display: block;
       background-color: #2F2625;
-      width: 1px;
-      height: 40px;
+      width: .1rem;
+      height: 4rem;
       margin: 1rem auto 4rem; }
   .About__body {
     line-height: 1.85; }
@@ -316,7 +316,7 @@ Profile
     margin-bottom: 2rem; }
 
 /*------------------------------------*\
-Lesson todo
+Lesson
 \------------------------------------*/
 .Lesson h2 {
   padding: 7rem; }
@@ -342,50 +342,31 @@ Lesson todo
     .Lesson__img-hero {
       width: 100%; } }
 
-.Lesson__body {
+.Lesson__info-wrapper {
+  position: relative;
   width: 50%;
   margin-left: 5rem; }
   @media (max-width: 780px) {
-    .Lesson__body {
+    .Lesson__info-wrapper {
       width: 90%;
       margin-top: -25%;
       margin-left: 3%; } }
 
-.Lesson__img-feature {
-  width: 12rem;
-  position: absolute;
-  top: -7rem;
-  left: 2rem; }
-
-.Lesson__reserve {
-  margin-left: 0;
-  margin-right: 4rem; }
-
-.Lesson__point {
-  font-family: 'Playfair Display';
-  font-size: 3rem;
-  letter-spacing: 0.05rem;
-  text-align: center;
-  display: block; }
-
-.Lesson__point-number {
-  font-size: 6rem; }
-
-.Lesson__point-wrapper {
+.Lesson__info {
   position: relative; }
 
-.Lesson__body2 {
+.Lesson__box-above {
   line-height: 1.85;
   margin-top: 2rem;
   padding: 4.8rem 2rem;
   height: 100%;
   border: 1px solid #333;
   position: relative;
-  z-index: 2;
   background-image: url(../images/bg_ivory_pattern.png);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  z-index: 2; }
 
-.Lesson__box-border {
+.Lesson__box-under {
   content: '';
   width: 100%;
   height: 100%;
@@ -395,6 +376,12 @@ Lesson todo
   border: 1px solid #000;
   z-index: 1;
   background-color: #fff9f3; }
+
+.Lesson__img-feature {
+  width: 12rem;
+  position: absolute;
+  top: -7rem;
+  left: 2rem; }
 
 .Lesson__point-head {
   color: #ffb768;
@@ -406,43 +393,27 @@ Lesson todo
     .Lesson__point-head {
       font-size: 2rem; } }
 
-.Lesson__wrapper-reverse {
+/*------------------------------------*\
+Lesson-reverse
+\------------------------------------*/
+.Lesson-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse; }
   @media (max-width: 780px) {
-    .Lesson__wrapper-reverse {
+    .Lesson-reverse {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -ms-flex-direction: row;
       flex-direction: row; } }
-  .Lesson__wrapper-reverse .Lesson__body {
+  .Lesson-reverse__info {
     margin-left: 0;
     margin-right: 8rem; }
     @media (max-width: 780px) {
-      .Lesson__wrapper-reverse .Lesson__body {
+      .Lesson-reverse__info {
         margin-left: 3%;
         margin-right: 0; } }
-  .Lesson__wrapper-reverse .Lesson__img {
-    position: relative; }
-    @media (max-width: 780px) {
-      .Lesson__wrapper-reverse .Lesson__img {
-        margin-right: 0;
-        margin-left: 0; } }
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start; }
-
-.flex2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
 
 /*------------------------------------*\
 Slide
